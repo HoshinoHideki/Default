@@ -1,0 +1,1834 @@
+- Date: -2600
+  Title: "+The Flood"
+  Podcast: "Ancient Civilizations"
+  Theme: "Потоп"
+---
+- Date: -2400
+  Title: "+Off To Punt We Go"
+  Podcast: "Egyptian History"
+  Theme: "Djedkare"
+---
+- Date: -2334
+  Title: "+“Wherever I Went, Let Him Go!” "
+  Podcast: "Ancient Civilizations"
+  Theme: "Саргон Великий"
+---
+- Date: -2200
+  Title: "+New Civilizations, 2200-250 B.C.E"
+  Podcast: "Richard Bulliet - History of the World to 1500 C"
+  Theme: "Древние Цивилизации"
+---
+- Date: -2200
+  Title: "+The Pyramid Builders"
+  Podcast: "Ancient Civilizations"
+  Theme: "Пирамиды, Династия Ся"
+---
+- Date: -2153
+  Title: "+The Xia, China’s First Dynasty"
+  Podcast: "The History of China"
+  Theme: "Династия Ся"
+---
+- Date: -2150
+  Title: "+Children of Pepy"
+  Podcast: "Egyptian History"
+  Theme: "Начало первого переходного периода"
+---
+- Date: -2007
+  Title: "+Revenge of the Xia!"
+  Podcast: "The History of China"
+  Theme: "Шао Кан"
+---
+- Date: -2004
+  Title: "+Smooth Sailing on the Red Sea"
+  Podcast: "Egyptian History"
+  Theme: "Ментухотеп III"
+---
+- Date: -2000:-500 
+  Title: "+The Mediterranean and the Middle East"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: -1983
+  Title: "+Seven Empty Years"
+  Podcast: "Egyptian History"
+  Theme: "Ментухотеп IV"
+---
+- Date: -1900
+  Title: "+Mold Gold Cape"
+  Podcast: "History of the world in 100 object"
+  Theme: "Металлургия"
+---
+- Date: -1892
+  Title: "+The Oasis"
+  Podcast: "Egyptian History"
+  Theme: "Сенусерт II "
+---
+- Date: -1793
+  Title: "+Hammurabi: King of Justice"
+  Podcast: "Podcast History"
+  Theme: "Хаммурапи"
+---
+- Date: -1793
+  Title: "+Blind-sided "
+  Podcast: "Ancient Civilizations"
+  Theme: "Хаммурапи и Вавилон"
+---
+- Date: -1776
+  Title: "+Between Two Worlds"
+  Podcast: "Egyptian History"
+  Theme: "Собекхотеп"
+---
+- Date: -1700
+  Title: "+Minoan Bull Leaper"
+  Podcast: "History of the world in 100 object"
+  Theme: "Минойская Цивилизация"
+---
+- Date: -1650
+  Title: "+Rulers of Foreign Lands"
+  Podcast: "Egyptian History"
+  Theme: "Гиксосы"
+---
+- Date: -1600
+  Title: "+The Fall Of The House Of Xia"
+  Podcast: "The History of China"
+  Theme: "Династия Шан"
+---
+- Date: -1560
+  Title: "+Blood and Thunder"
+  Podcast: "Egyptian History"
+  Theme: "Аххотеп"
+---
+- Date: -1550
+  Title: "+The Hyksos"
+  Podcast: "Podcast History"
+  Theme: "Гиксосы"
+---
+- Date: -1550
+  Title: "+The New Kingdoms"
+  Podcast: "Ancient Civilizations"
+  Theme: "Новое Царство"
+---
+- Date: -1500
+  Title: "+Rhind Mathematical Papyrus"
+  Podcast: "History of the world in 100 object"
+  Theme: "Математика в Древнем Египте"
+---
+- Date: -1500
+  Title: "+In the midst of the Seas"
+  Podcast: "Ancient Civilizations"
+  Theme: "Финикия"
+---
+- Date: -1495
+  Title: "+The Two Lands Serve Her"
+  Podcast: "Egyptian History"
+  Theme: "Хатшепсут"
+---
+- Date: -1391
+  Title: "+The Bull and the Aten"
+  Podcast: "Ancient Civilizations"
+  Theme: "Аменхотеп III"
+---
+- Date: -1353
+  Title: "+Heretics to Horemheb"
+  Podcast: "Podcast History"
+  Theme: "Эхнатон"
+---
+- Date: -1300
+  Title: "+Voyage of the Argo"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Аргонавтика"
+---
+- Date: -1279
+  Title: "+Look Upon My Works"
+  Podcast: "Ancient Civilizations"
+  Theme: "Рамзес II"
+---
+- Date: -1274
+  Title: "+The Battle of Kadesh"
+  Podcast: "Podcast History"
+  Theme: "Битва при Кадеше"
+---
+- Date: -1260
+  Title: "+The Face that Launched a Thousand Ships"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Троянская Война"
+---
+- Date: -1260
+  Title: "+Between Lions and Men"
+  Podcast: "Ancient Civilizations"
+  Theme: "Троянская Война"
+---
+- Date: -1260
+  Title: "+The Thousand Year Gap"
+  Podcast: "Ancient Civilizations"
+  Theme: "Троянская Война"
+---
+- Date: -1250
+  Title: "+Statue of Ramesses II"
+  Podcast: "History of the world in 100 object"
+  Theme: "Статуя Рамзеса великого"
+---
+- Date: -1200
+  Title: "+Darkness Buries the Bronze Age"
+  Podcast: "Hardcore History"
+  Theme: "Коллапс Бронзового века"
+---
+- Date: -1200
+  Title: "+The Other 99 Percent"
+  Podcast: "Ancient Civilizations"
+  Theme: "Коллапс Бронзового века"
+---
+- Date: -1200
+  Title: "+Late Bronze Age Collapse"
+  Podcast: "History of Greec"
+  Theme: "Коллапс Бронзового века"
+---
+- Date: -1192
+  Title: "+The Shang Vanquished"
+  Podcast: "The History of China"
+  Theme: "У Дин"
+---
+- Date: -1100
+  Title: "+Peoples and Languages of Iran Early Iron "
+  Podcast: "History of Ira"
+  Theme: "Элам"
+---
+- Date: -1100
+  Title: "+Dark Ages"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Греческие темные века"
+---
+- Date: -1100
+  Title: '+The "Dark Age" and Homer'
+  Podcast: "History of Greec"
+  Theme: "Греческие темные века"
+---
+- Date: -1100
+  Title: "+Neo-Elamite Kingdom"
+  Podcast: "History of Ira"
+  Theme: "Новое Эламское Царство"
+---
+- Date: -1050
+  Title: "+Picking Up The Pieces"
+  Podcast: "Ancient Civilizations"
+  Theme: "Израильское Царство"
+---
+- Date: -1046
+  Title: "+Heaven Does Not Make Propositions"
+  Podcast: "The History of China"
+  Theme: "Династия Чжоу"
+---
+- Date: -1046
+  Title: "+Chinese Zhou Ritual Vessel"
+  Podcast: "History of the world in 100 object"
+  Theme: "Династия Чжоу"
+---
+- Date: -1020
+  Title: '+The King Who Cried "Barbarian!"'
+  Podcast: "The History of China"
+  Theme: "Чжоу Кан"
+---
+- Date: -1000
+  Title: "+Greece and Iran"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Греция и Иран"
+---
+- Date: -930
+  Title: "+The Ancient Israelites"
+  Podcast: "Podcast History"
+  Theme: "Израиль "
+---
+- Date: -900
+  Title: "+Olmec Stone Mask"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ольмеки"
+---
+- Date: -900
+  Title: "+Legacies of East and West"
+  Podcast: "Ancient Civilizations"
+  Theme: "Ольмеки"
+---
+- Date: -900
+  Title: "+Greek Resurgence"
+  Podcast: "History of Greec"
+  Theme: "Греческое возрождение"
+---
+- Date: -853
+  Title: "+The Rise of Assyria"
+  Podcast: "Ancient Civilizations"
+  Theme: "Ассирия"
+---
+- Date: -824
+  Title: "+Civil War"
+  Podcast: "Ancient Civilizations"
+  Theme: "Гражданская Война в Ассирии"
+---
+- Date: -800
+  Title: "+Holding Action"
+  Podcast: "Ancient Civilizations"
+  Theme: "Ближний восток"
+---
+- Date: -771
+  Title: "+The Shattered Empire"
+  Podcast: "The History of China"
+  Theme: "Восточное Чжоу"
+---
+- Date: до -753
+  Title: "+In the Beginning "
+  Podcast: "History of Rom"
+  Theme: "Эней и Ромул "
+---
+- Date: -753:-716
+  Title: "+Youthful Indiscretions"
+  Podcast: "History of Rom"
+  Theme: "Ромул"
+---
+- Date: -753
+  Title: "+An Age of Empires: Rome and Han China"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Античные Империи"
+---
+- Date: -750
+  Title: "+Oligarchs and Hesiod"
+  Podcast: "History of Greec"
+  Theme: "Гесиод"
+---
+- Date: -745
+  Title: "+The Assyrian"
+  Podcast: "Ancient Civilizations"
+  Theme: "Тиглатпаласар III"
+---
+- Date: -722
+  Title: "+The Fall of Israel"
+  Podcast: "Ancient Civilizations"
+  Theme: "Падение Израиля"
+---
+- Date: -722
+  Title: "+The Shattered Empire"
+  Podcast: "Ancient Civilizations"
+  Theme: "Чуньцю"
+---
+- Date: -722
+  Title: "+The Conquest of Samaria and Israel"
+  Podcast: "Podcast History"
+  Theme: "Падение Израиля"
+---
+- Date: -721
+  Title: "+Dwelling of the Lions"
+  Podcast: "Ancient Civilizations"
+  Theme: "Дур-Шаррукин"
+---
+- Date: -716:-509
+  Title: "+The Seven Kings of Rome"
+  Podcast: "History of Rom"
+  Theme: "Римское Царство"
+---
+- Date: -710
+  Title: "+Hoplite Warfare"
+  Podcast: "History of Greec"
+  Theme: "Лелантская война"
+---
+- Date: -705
+  Title: "+The Three Pillars"
+  Podcast: "Ancient Civilizations"
+  Theme: "Сеннахериб"
+---
+- Date: -705
+  Title: "+The Destruction of Sennacherib"
+  Podcast: "Ancient Civilizations"
+  Theme: "Сеннахериб"
+---
+- Date: -701
+  Title: "+Battle Royale: Assyria v Babylon v Egypt"
+  Podcast: "Podcast History"
+  Theme: "Езекия"
+---
+- Date: -700
+  Title: "+Flood Tablet"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ассирийская Табличка"
+---
+- Date: -700
+  Title: "+Lachish Reliefs"
+  Podcast: "History of the world in 100 object"
+  Theme: "Осада Лахиша"
+---
+- Date: -700
+  Title: "+The Fifth Generation"
+  Podcast: "Ancient Civilizations"
+  Theme: "Гесиод"
+---
+- Date: -680
+  Title: "+Sphinx of Taharqo"
+  Podcast: "History of the world in 100 object"
+  Theme: "Куш"
+---
+- Date: -670
+  Title: "+Disappearing Kingdom"
+  Podcast: "History of Ira"
+  Theme: "Мидяне"
+---
+- Date: -670
+  Title: '+The "Age of Tyranny"'
+  Podcast: "History of Greec"
+  Theme: "Тираны Греции"
+---
+- Date: -664
+  Title: "+The House of Succession"
+  Podcast: "Ancient Civilizations"
+  Theme: "Псамметих I"
+---
+- Date: -632
+  Title: "+Men of the Polis"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Афины"
+---
+- Date: -625
+  Title: "+Poets and Wise Rulers "
+  Podcast: "History of Greec"
+  Theme: "Античная Культура"
+---
+- Date: -612
+  Title: "+Judgment at Nineveh "
+  Podcast: "Hardcore History"
+  Theme: "Падение Ассирийской Империи"
+---
+- Date: -612
+  Title: "+For the Sake of Distant Days"
+  Podcast: "Ancient Civilizations"
+  Theme: "Падение Ассирийской Империи"
+---
+- Date: -610
+  Title: "+Necho II's Expedition "
+  Podcast: "History of Exploratio"
+  Theme: "Огибание Африки Финикийцами"
+---
+- Date: -597
+  Title: "+Captives of Babylon"
+  Podcast: "Ancient Civilizations"
+  Theme: "Навуходоносор"
+---
+- Date: -597
+  Title: "+Nebuchadnezzar and the Fall of Judah"
+  Podcast: "Podcast History"
+  Theme: "Навуходоносор"
+---
+- Date: -594
+  Title: "+A Wolf Among Hounds"
+  Podcast: "Ancient Civilizations"
+  Theme: "Солон Афинский"
+---
+- Date: -594
+  Title: "+The Voyage of Solon"
+  Podcast: "Ancient Civilizations"
+  Theme: "Солон Афинский"
+---
+- Date: -565
+  Title: "+The Tyranny of the Peisistratids"
+  Podcast: "History of Greec"
+  Theme: "Писистрат"
+---
+- Date: -559
+  Title: "+When the Mede Came"
+  Podcast: "Ancient Civilizations"
+  Theme: "Кир великий"
+---
+- Date: -559
+  Title: "+A More Perfect Empire"
+  Podcast: "Ancient Civilizations"
+  Theme: "Кир великий"
+---
+- Date: -559
+  Title: "+Cyrus the Great"
+  Podcast: "Podcast History"
+  Theme: "Кир великий"
+---
+- Date: -559
+  Title: "+Cyrus the Great"
+  Podcast: "Greek History"
+  Theme: "Кир великий"
+---
+- Date: -551
+  Title: "+Confucius Says..."
+  Podcast: "The History of China"
+  Theme: "Конфуций"
+---
+- Date: -550
+  Title: "+Gold Coin of Croesus"
+  Podcast: "History of the world in 100 object"
+  Theme: "Лидия"
+---
+- Date: -550
+  Title: "+Oxus Chariot Model"
+  Podcast: "History of the world in 100 object"
+  Theme: "Лидия"
+---
+- Date: -550
+  Title: "+Prophets and Kings"
+  Podcast: "Podcast History"
+  Theme: "Камбис II"
+---
+- Date: -545
+  Title: "+The Art of War"
+  Podcast: "The History of China"
+  Theme: "Сунь Цзы"
+---
+- Date: -544
+  Title: '+The Shrewdness of King Bimbisara'
+  Podcast: "History of India"
+  Theme: "Бимбисара"
+---
+- Date: -539
+  Title: "+The Last Kings of Babylon"
+  Podcast: "Ancient Civilizations"
+  Theme: "Набонид"
+---
+- Date:   "-530"
+  Title: "-Cambyses"
+  Theme: "Камбиз"
+  Podcast: "Greece"
+---
+- Date: -530
+  Title: "+The Lost Army"
+  Podcast: "Ancient Civilizations"
+  Theme: "Камбиз"
+---
+- Date: -522
+  Title: "+Land of Imposters"
+  Podcast: "Ancient Civilizations"
+  Theme: "Дарий I"
+---
+- Date: -522
+  Title: "+Behistun Inscription"
+  Podcast: "Ancient Civilizations"
+  Theme: "Дарий I"
+---
+- Date: -522
+  Title: "+Behistun Hat-Trick"
+  Podcast: "Ancient Civilizations"
+  Theme: "Дарий I"
+---
+- Date: -522
+  Title: "+The Heroic Age"
+  Podcast: "Ancient Civilizations"
+  Theme: "Дарий I"
+---
+- Date: -522
+  Title: "+Darius the Achaemenid"
+  Podcast: "Podcast History"
+  Theme: "Дарий I"
+---
+- Date: -514
+  Title: "+Things Fixed, Things Moving"
+  Podcast: "Ancient Civilizations"
+  Theme: "Гиппарх"
+---
+- Date: -509
+  Title: "+The Public Thing"
+  Podcast: "History of Rom"
+  Theme: "Утверждение римской республики"
+---
+- Date: -509
+  Title: "+Democracy and Republic"
+  Podcast: "Ancient Civilizations"
+  Theme: "Демократия и Республика"
+---
+- Date: -508
+  Title: "+The Democracy of Cleisthenes "
+  Podcast: "History of Greec"
+  Theme: "Клейстен"
+---
+- Date: -506
+  Title: "+The Widening Gyre"
+  Podcast: "The History of China"
+  Theme: "Битва при Боцзю"
+---
+- Date: -500
+  Title: "+Chinese Bronze Bell"
+  Podcast: "History of the world in 100 object"
+  Theme: "Музыка древнего китая"
+---
+- Date: -500
+  Title: "+The Rise of Carthage"
+  Podcast: "History of Greec"
+  Theme: "Карфаген"
+---
+- Date: -499
+  Title: "+On the Verge"
+  Podcast: "Ancient Civilizations"
+  Theme: "Ионийское Восстание"
+---
+- Date: -499
+  Title: "+And Then What Happened?"
+  Podcast: "Ancient Civilizations"
+  Theme: "Итоги"
+---
+- Date: -494
+  Title: "+Trials and Tribunlations"
+  Podcast: "History of Rom"
+  Theme: "Должность народного Трибуна"
+---
+- Date: -499:-449
+  Title: "+Shield of the West "
+  Podcast: "Hardcore History"
+  Theme: "греко-персидские войны"
+---
+- Date: -499
+  Title: "+The Persian Wars: Invasion"
+  Podcast: "Podcast History"
+  Theme: "Греко-персидские войны"
+---
+- Date: -499
+  Title: "+A Persian Navy, an Ionian Revolt"
+  Podcast: "Maritime History"
+  Theme: "Ионийское Восстание"
+---
+- Date: -492
+  Title: "+The Envy of Princes"
+  Podcast: "Indian History"
+  Theme: "Сын Бимбисары"
+---
+- Date: -490
+  Title: "+The Enemy Abroad"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Марафонская Битва"
+---
+- Date: -481
+  Title: "+The Partition of Jin"
+  Podcast: "The History of China"
+  Theme: "Разделение Цзинь"
+---
+- Date: -480
+  Title: "+League Champions"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Саламинская Битва"
+---
+- Date: -480
+  Title: '+Behind the Wooden Walls'
+  Podcast: "History of Greece"
+  Theme: 'Саламинская Битва'
+---
+- Date: -480
+  Title: +Athens Strikes Back!
+  Podcast: 'Podcast History'
+  Theme: '+После битвы при Саламине'
+---
+- Date: -466
+  Title: '-The end of an Era'
+  Podcast: "History of Greece"
+  Theme: 'Битва при Эвримидоне'
+---
+- Date: -461
+  Title: -The Age of Pericles
+  Podcast: Podcast History
+  Theme: Перикл
+---
+- Date: -451
+  Title: "-The Twelve Tables"
+  Podcast: "History of Rom"
+  Theme: "Римское Законодательство"
+---
+- Date: -458
+  Title: "-The Roman Washington"
+  Podcast: "History of Rom"
+  Theme: "Цинциннат"
+---
+- Date: -451+
+  Title: "-Decades of Gloom"
+  Podcast: "History of Rom"
+  Theme: "Римское Законодательство"
+---
+- Date: -450
+  Title: "Basse Yutz Flagons"
+  Podcast: "History of the world in 100 object"
+  Theme: "Древнегреческое искусство"
+---
+- Date: -447-432
+  Title: "-Parthenon Sculpture: Centaur and Lapith"
+  Podcast: "History of the world in 100 object"
+  Theme: "Древнегреческая культура"
+---
+- Date: -431
+  Title: "-The Enemy at Home"
+  Podcast: "Myths and History of Greece and Rome"
+  Theme: "Пелопоннесская Война"
+---
+- Date: -429
+  Title: "-The Requiem at Athens"
+  Podcast: "Literatur"
+  Theme: "Эдип"
+---
+- Date: -401
+  Title: "-The 10 000"
+  Podcast: "History on Fire 0"
+  Theme: "Анабасис "
+---
+- Date: -401
+  Title: "-Marcus Furius Camillus"
+  Podcast: "The Almost Forgotten"
+  Theme: "Марк Фурий Камилл и война с галлами"
+---
+- Date: -396
+  Title: "-A Trojan War"
+  Podcast: "History of Rom"
+  Theme: "Война с Этрусками"
+---
+- Date: -390
+  Title: "-Barbarians at the Gate"
+  Podcast: "History of Rom"
+  Theme: "Битва при Аллии"
+---
+- Date: -390
+  Title: "-Qin's Reformation And Ascension"
+  Podcast: "The History of China"
+  Theme: "Цинь"
+---
+- Date: -367
+  Title: "-The Morning After"
+  Podcast: "History of Rom"
+  Theme: "Плебеи и консулат"
+---
+- Date: -356:-326 
+  Title: "+Alexander Vs Hitler "
+  Podcast: "Hardcore History"
+  Theme: "Александр Македонский"
+---
+- Date: -343:-341
+  Title: "-First Samnite War"
+  Podcast: "History of Rom"
+  Theme: "Первая самнитская война"
+---
+- Date: -340:-338
+  Title: "-The Latin War"
+  Podcast: "History of Rom"
+  Theme: "Война с Латинской Лигой"
+---
+- Date: -340
+  Title: "-A Phalanx With Joints"
+  Podcast: "History of Rom"
+  Theme: "Фаланга"
+---
+- Date: -325
+  Title: "-Pytheas the Massaliot's Journey to Britain"
+  Podcast: "History of Exploratio"
+  Theme: "Путешествие в Британию"
+---
+- Date: -323
+  Title: "-Lecture 6"
+  Podcast: "Iranian History"
+  Theme: "Hellenistic Iran"
+---
+- Date: -321
+  Title: "-The Second Samnite War"
+  Podcast: "History of Rom"
+  Theme: "Вторая война с Самнитами"
+---
+- Date: -321:-301
+  Title: "+The Macedonian Soap Opera"
+  Podcast: "Hardcore History"
+  Theme: "Войны Диадохов"
+---
+- Date: -305
+  Title: "-Head of Alexander"
+  Podcast: "History of the world in 100 object"
+  Theme: "Экономика македонской империи"
+---
+- Date: -300
+  Title: "-Paracas Textile"
+  Podcast: "History of the world in 100 object"
+  Theme: "Инки"
+---
+- Date: -298-290
+  Title: "-The Third Samnite War"
+  Podcast: "History of Rom"
+  Theme: "Третья война с Самнитами"
+---
+- Date: -284
+  Title: "-Shifting Loyalties, Uneasy Alliances"
+  Podcast: "The History of China"
+  Theme: "Вертикальный Альянс"
+---
+- Date: -278
+  Title: "-The End Of Zhou"
+  Podcast: "The History of China"
+  Theme: "Падение Чжоу"
+
+- Date: -273
+  Title: "Carry a Big Stick"
+  Podcast: "Indian Philosophy"
+  Theme: "Ашока"
+---
+- Date: -264:-146
+  Title: "+Punic Nightmares"
+  Podcast: "Hardcore History"
+  Theme: "Пунические Войны"
+---
+- Date: -264
+  Title: 'Prelude'
+  Podcast: 'Flash Point History'
+  Theme: 'Пунические Войны'
+---
+- Date: -238
+  Title: "-Pillar of Ashoka"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ашока"
+---
+- Date: -230
+  Title: "-There Can Be Only One"
+  Podcast: "The History of China"
+  Theme: "Цинь"
+---
+- Date: -221
+  Title: "-One Nation Under Qin"
+  Podcast: "The History of China"
+  Theme: "Цинь"
+---
+- Date: -210
+  Title: "-Web Of Deception"
+  Podcast: "The History of China"
+  Theme: "Цинь"
+---
+- Date: -206
+  Title: "-The Chu-Han Contention"
+  Podcast: "The History of China"
+  Theme: "Чу-Ханьская Война"
+---
+- Date: -202
+  Title: "-Xiongnu to the Left of Me, Rebels ttRight"
+  Podcast: "The History of China"
+  Theme: "Гаоцзу"
+---
+- Date: -200
+  Title: "-North American Otter Pipe"
+  Podcast: "History of the world in 100 object"
+  Theme: "Табак"
+---
+- Date: -196
+  Title: "-Rosetta Stone"
+  Podcast: "History of the world in 100 object"
+  Theme: "Розеттский Камень"
+---
+- Date: -196
+  Title: "-The Broken Stone"
+  Podcast: "Ancient Civilizations"
+  Theme: "Розеттский Камень"
+---
+- Date: -195
+  Title: "-The Bloody Empress"
+  Podcast: "The History of China"
+  Theme: "Люй Хоу"
+---
+- Date: -180
+  Title: "-The Rule Of Wen And Jing"
+  Podcast: "The History of China"
+  Theme: "Вэнь и Цзин"
+---
+- Date: -163:-44
+  Title: "+Death Throes of the Republic "
+  Podcast: "Hardcore History"
+  Theme: "Закат римской республики"
+---
+- Date: -141
+  Title: "-Go West, Young Han!"
+  Podcast: "The History of China"
+  Theme: "У Хань"
+---
+- Date: -135:-71
+  Title: "-The Slave Wars"
+  Podcast: "History on Fire 0"
+  Theme: "Сервильные Войны"
+---
+- Date: -133
+  Title: "-The Sino-Xiongnu War"
+  Podcast: "The History of China"
+  Theme: "Хань-Сюнну"
+---
+- Date: -133
+  Title: "-Every Direction But The Sea"
+  Podcast: "The History of China"
+  Theme: "После войны Хань-Сюнну"
+---
+- Date: -87
+  Title: "-Getting Over Wu"
+  Podcast: "The History of China"
+  Theme: "Смерть Императора У"
+---
+- Date: -65
+  Title: "-Eurus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Третья Митридатова Война"
+---
+- Date: -58:-50
+  Title: "+Romancing The Tribes"
+  Podcast: "Hardcore History"
+  Theme: "Галльская война"
+---
+- Date: -48
+  Title: "-The Decline Of Han"
+  Podcast: "The History of China"
+  Theme: "Юань"
+---
+- Date: -44
+  Title: "-Tropaion"
+  Podcast: "Ancient Civilizations"
+  Theme: "Смерть Цезаря"
+---
+- Date: -40
+  Title: "-Triumph"
+  Podcast: "Ancient Civilizations"
+  Theme: "Клеопатра Селена"
+---
+- Date: -40
+  Title: "-Rex Socius Amicusque"
+  Podcast: "Ancient Civilizations"
+  Theme: "Юба II"
+---
+- Date: -40
+  Title: "-Ephebus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Юба II"
+---
+- Date: -29
+  Title: "-Limitem Mundi"
+  Podcast: "Ancient Civilizations"
+  Theme: "Юба II"
+---
+- Date: -27:-25
+  Title: "-Head of Augustus"
+  Podcast: "History of the world in 100 object"
+  Theme: "Октавиан Август"
+---
+- Date: -13
+  Title: "-Eclipsis"
+  Podcast: "Ancient Civilizations"
+  Theme: "Птолемей и Друзилия"
+---
+- Date: 4
+  Title: "-Chinese Han lacquer cup"
+  Podcast: "History of the world in 100 object"
+  Theme: "Династия Хань"
+---
+- Date: 5
+  Title: "-Warren Cup"
+  Podcast: "History of the world in 100 object"
+  Theme: "Римская Империя"
+---
+- Date: 9
+  Title: "-Han, Interrupted"
+  Podcast: "The History of China"
+  Theme: "Династия Синь"
+---
+- Date: 14
+  Title: "-Scelus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Тиберий"
+---
+- Date: 17
+  Title: "-The Red Eyebrow Rebellion"
+  Podcast: "The History of China"
+  Theme: "Восстание Красных Бровей"
+---
+- Date: 19
+  Title: "-Germanicus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Германик"
+---
+- Date: 23
+  Title: "-Insurgo"
+  Podcast: "Ancient Civilizations"
+  Theme: "Такфаринас"
+---
+- Date: 23?
+  Title: "-Caedis"
+  Podcast: "Ancient Civilizations"
+  Theme: "Сеян"
+---
+- Date: 25
+  Title: "-One Han, Two Han, Red Han, True Han"
+  Podcast: "The History of China"
+  Theme: "Поздняя Хань"
+---
+- Date: 25
+  Title: "-Reclamation"
+  Podcast: "The History of China"
+  Theme: "Поздняя Хань"
+---
+- Date: 37
+  Title: "-Antonii"
+  Podcast: "Ancient Civilizations"
+  Theme: "Калигула"
+---
+- Date: 52?
+  Title: "-Zealot"
+  Podcast: "Ancient Civilizations"
+  Theme: "Друзилла Мавританская"
+---
+- Date: 50
+  Title: "-Periplus of the Erythraean Sea"
+  Podcast: "Ancient Civilizations"
+  Theme: "Maritime History"
+---
+- Date: 52?
+  Title: "-The Just"
+  Podcast: "Ancient Civilizations"
+  Theme: "Друзилла Мавританская"
+---
+- Date: 58
+  Title: "-God of the Mountain"
+  Podcast: "Ancient Civilizations"
+  Theme: "Римо-Парфянская Война"
+---
+- Date: 60
+  Title: "-Burn"
+  Podcast: "Ancient Civilizations"
+  Theme: "Боудикка"
+---
+- Date: 66
+  Title: "-The Valley"
+  Podcast: "Ancient Civilizations"
+  Theme: "Тиридат"
+---
+- Date: 66
+  Title: "-The Josephus Problem"
+  Podcast: "Ancient Civilizations"
+  Theme: "Первая Иудейская Война"
+---
+- Date: 66
+  Title: "-The Prefect"
+  Podcast: "Ancient Civilizations"
+  Theme: "Первая Иудейская Война"
+---
+- Date: 70
+  Title: "-The God of Dusk"
+  Podcast: "Ancient Civilizations"
+  Theme: "Осада Иерусалима"
+---
+- Date: 72
+  Title: "-Betrayal"
+  Podcast: "Ancient Civilizations"
+  Theme: "Аннексия Коммагены"
+---
+- Date: 100
+  Title: "-Ceremonial Ballgame Belt"
+  Podcast: "History of the world in 100 object"
+  Theme: "Майя"
+---
+- Date: 100
+  Title: "-Seated Buddha from Gandhara"
+  Podcast: "History of the world in 100 object"
+  Theme: "Буддизм"
+---
+- Date: 100
+  Title: "-Arabian Bronze Hand"
+  Podcast: "History of the world in 100 object"
+  Theme: "Доисламский Египет"
+---
+- Date: 100
+  Title: "-Moche Warrior Pot"
+  Podcast: "History of the world in 100 object"
+  Theme: "Инки, Моче"
+---
+- Date: 100
+  Title: "-Optimus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Римо-Парфянская Война"
+---
+- Date: 105
+  Title: "-Live Fast, Die Young"
+  Podcast: "The History of China"
+  Theme: "Бумага"
+---
+- Date: 117
+  Title: "-Parthicus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Траян"
+---
+- Date: 132
+  Title: "-The Yona Kings"
+  Podcast: "Ancient Civilizations"
+  Theme: "Адриан"
+---
+- Date: 166
+  Title: "-Discindo"
+  Podcast: "Ancient Civilizations"
+  Theme: "Сохаэм"
+---
+- Date: 175
+  Title: "-Emanes"
+  Podcast: "Ancient Civilizations"
+  Theme: "Авид Кассий"
+---
+- Date: 184
+  Title: "-Things Fall Apart"
+  Podcast: "The History of China"
+  Theme: "Восстание Желтых Повязок"
+---
+- Date: 188
+  Title: "-Lucifugus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Септимий Север"
+---
+- Date: 188
+  Title: "-Bestiarius"
+  Podcast: "Ancient Civilizations"
+  Theme: "Каракалла"
+---
+- Date: 193
+  Title: "-193"
+  Podcast: "Ancient Civilizations"
+  Theme: "Пертинакс"
+---
+- Date: 193
+  Title: "-Mater Castrorum"
+  Podcast: "Ancient Civilizations"
+  Theme: "Год пяти императоров"
+---
+- Date: 195
+  Title: "-Perish in Blood"
+  Podcast: "Ancient Civilizations"
+  Theme: "Римо-Парфянская Война Севера"
+---
+- Date: 200-1500
+  Title: "-Peoples and Civilization of the Americas"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Доколумбова Америка"
+---
+- Date: 200
+  Title: "-The Battle Of Guandu"
+  Podcast: "The History of China"
+  Theme: "Троецарствие"
+---
+- Date: 200
+  Title: "-Warlords, White Wolf, Winter Winds"
+  Podcast: "The History of China"
+  Theme: "Троецарствие"
+---
+- Date: 208
+  Title: "-The Fourth Caesar"
+  Podcast: "Ancient Civilizations"
+  Theme: "Британское Восстание"
+---
+- Date: 208 
+  Title: "-The Red Cliffs Of Chibi"
+  Podcast: "The History of China"
+  Theme: "Битва при Чиби"
+---
+- Date: 217
+  Title: "-Semiramis"
+  Podcast: "Ancient Civilizations"
+  Theme: "Смерть Каракаллы"
+---
+- Date: 220 
+  Title: "-A Farewell To Hans"
+  Podcast: "The History of China"
+  Theme: "Падение Хань"
+---
+- Date: 220
+  Title: "-The King In The North!"
+  Podcast: "The History of China"
+  Theme: "Цао Вэй"
+---
+- Date: 220?
+  Title: "-Ode Of The Hidden Dragon"
+  Podcast: "The History of China"
+  Theme: "Сыма"
+---
+- Date: 220?
+  Title: "-The Southern Strategy"
+  Podcast: "The History of China"
+  Theme: "Чжугэ Лян"
+---
+- Date: 220?
+  Title: "-House Of The Rising Sun"
+  Podcast: "The History of China"
+  Theme: "Царство У"
+---
+- Date: 224
+  Title: "-Keepers of the Fire"
+  Podcast: "Ancient Civilizations"
+  Theme: "Падение Парфии"
+---
+- Date: 224
+  Title: "-Bassus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Александр Север"
+---
+- Date: 224
+  Title: "-The Black Stone"
+  Podcast: "Ancient Civilizations"
+  Theme: "Элагабал"
+---
+- Date: 224
+  Title: "-Shahanshah"
+  Podcast: "Ancient Civilizations"
+  Theme: "Ардашир"
+---
+- Date: 235
+  Title: "-The Last Severan"
+  Podcast: "Ancient Civilizations"
+  Theme: "Александр Север"
+---
+- Date: 235
+  Title: "-Excidium"
+  Podcast: "Ancient Civilizations"
+  Theme: "Александр Север"
+---
+- Date: 235
+  Title: "-Uranius"
+  Podcast: "Ancient Civilizations"
+  Theme: "Смерть Элагабала"
+---
+- Date: 240
+  Title: "-Samsigeramus"
+  Podcast: "Ancient Civilizations"
+  Theme: "Шапур"
+---
+- Date: 249
+  Title: "-Iotapian"
+  Podcast: "Ancient Civilizations"
+  Theme: "Йотапиан"
+---
+- Date: 253
+  Title: "-Sibylline"
+  Podcast: "Ancient Civilizations"
+  Theme: "Валериан"
+---
+- Date: 266
+  Title: "-Long United Must Divide"
+  Podcast: "The History of China"
+  Theme: "Цзинь"
+---
+- Date: 291
+  Title: "-The Disorder Of The Eight Princes"
+  Podcast: "The History of China"
+  Theme: "Война Восьми Принцев"
+---
+- Date: 300
+  Title: "-Hoxne Pepper Pot"
+  Podcast: "History of the world in 100 object"
+  Theme: "Римская Британия"
+---
+- Date: 300
+  Title: "-Silver Plate Showing Shapur II"
+  Podcast: "History of the world in 100 object"
+  Theme: "Сасаниды"
+---
+- Date: 300
+  Title: "-Hinton St Mary Mosaic"
+  Podcast: "History of the world in 100 object"
+  Theme: "Христианство в Британии"
+---
+- Date: 304
+  Title: "-Barbarians At The Gates"
+  Podcast: "The History of China"
+  Theme: "Падение Цзинь"
+---
+- Date: 304
+  Title: "-Splinters"
+  Podcast: "The History of China"
+  Theme: "Северная Хань"
+---
+- Date: 319
+  Title: "-Infighting"
+  Podcast: "The History of China"
+  Theme: "Поздняя Чжао"
+---
+- Date: 320
+  Title: "-The Two Caligulas Of China"
+  Podcast: "The History of China"
+  Theme: "Ши Ху"
+---
+- Date: 320
+  Title: "-The Year Of Five Emperors"
+  Podcast: "The History of China"
+  Theme: "Ши Ху"
+---
+- Date: 400-1200
+  Title: "-Inner and East Asia"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Средневековая Азия"
+---
+- Date: 415
+  Title: "-Gold Coin of Kumaragupta I"
+  Podcast: "History of the world in 100 object"
+  Theme: "Гупты"
+---
+- Date: 434
+  Title: 'Attila the Hun'
+  Podcast: 'Flash Point History'
+  Theme: 'Вождь Гуннов Аттила'
+---
+- Date: 495-800
+  Title: "+Thor’s Angels"
+  Podcast: "Hardcore History"
+  Theme: "Веcтготы и Франки"
+---
+- Date: 500
+  Title: "-Admonitions Scroll"
+  Podcast: "History of the world in 100 object"
+  Theme: "Китайское искусство"
+---
+- Date: 500
+  Title: "Sutton Hoo Helmet"
+  Podcast: "History of the world in 100 object"
+  Theme: "Саксы и Викинги"
+---
+- Date: 538
+  Title: "-A Kingdom Called Wa"
+  Podcast: "Japanese History"
+  Theme: "Зарождение Японии"
+---
+- Date: 600
+  Title: "-Silk Princess Painting"
+  Podcast: "History of the world in 100 object"
+  Theme: "Китайский Шелк"
+---
+- Date: 600
+  Title: "-Maya Relief of Royal Blood-Letting"
+  Podcast: "History of the world in 100 object"
+  Theme: "Майя"
+---
+- Date: 600-1200
+  Title: "- The Rise of Islam"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Арабский Халифат"
+---
+- Date: 600-1200
+  Title: "-Christian Europe Emerges"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Каролинги и СРИ"
+---
+- Date: 632
+  Title: 'Early Islamic Conquest'
+  Podcast: 'Flash Point History'
+  Theme: 'Исламские завоевания'
+---
+- Date: 696
+  Title: "-Gold Coins of Abd al-Malik"
+  Podcast: "History of the world in 100 object"
+  Theme: "Арабский Халифат"
+---
+- Date: 700
+  Title: "-Korean Roof Tile"
+  Podcast: "History of the world in 100 object"
+  Theme: "Корея"
+---
+- Date: 700
+  Title: "-Statue of Tara"
+  Podcast: "History of the world in 100 object"
+  Theme: "Шри-Ланка"
+---
+- Date: 728 
+  Title: "-Chinese Tang tomb figures"
+  Podcast: "History of the world in 100 object"
+  Theme: "Династия Тан"
+---
+- Date: 750
+  Title: "-Borobudur Buddha head"
+  Podcast: "History of the world in 100 object"
+  Theme: "Остров Ява"
+---
+- Date: 800
+  Title: "-Harem wall painting fragments"
+  Podcast: "History of the world in 100 object"
+  Theme: "Арабский Халифат"
+---
+- Date: 855
+  Title: "-Lothair Crystal"
+  Podcast: "History of the world in 100 object"
+  Theme: "Королевство Франков"
+---
+- Date: 900
+  Title: "-Kilwa pot sherds"
+  Podcast: "History of the world in 100 object"
+  Theme: "Килва и Занзибар"
+---
+- Date: 900
+  Title: "-Statue of Huastec Goddess"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ацтеки"
+---
+- Date: 927
+  Title: "-Vale of York Hoard"
+  Podcast: "History of the world in 100 object"
+  Theme: "Саксоны и Викинги"
+---
+- Date: 1000
+  Title: "-Hoa Hakananai'a Easter Island Statue"
+  Podcast: "History of the world in 100 object"
+  Theme: "Рапа Нуи"
+---
+- Date: 1066
+  Title: "+The What-Ifs Of 1066"
+  Podcast: "Hardcore History"
+  Theme: "Норманнское вторжение, 11 век"
+---
+- Date: 1100
+  Title: "-Hedwig glass beaker"
+  Podcast: "History of the world in 100 object"
+  Theme: "Сирия"
+---
+- Date: 1100
+  Title: "-Japanese bronze mirror"
+  Podcast: "History of the world in 100 object"
+  Theme: "Япония "
+---
+- Date: 1100
+  Title: "-Ife Head"
+  Podcast: "History of the world in 100 object"
+  Theme: "Африка"
+---
+- Date: 1147-1149
+  Title: "-Onboard with the Vikings and on a crusade"
+  Podcast: "History on fir"
+  Theme: "Второй Крестовый Поход"
+---
+- Date: 1150
+  Title: "-Lewis Chessmen"
+  Podcast: "History of the world in 100 object"
+  Theme: "Норвегия"
+---
+- Date: 1200
+  Title: "-Taino Ritual Seat"
+  Podcast: "History of the world in 100 object"
+  Theme: "Араваки"
+---
+- Date: 1200
+  Title: "-Shiva and Parvati Sculpture"
+  Podcast: "History of the world in 100 object"
+  Theme: "Индия"
+---
+- Date: 1200-1500
+  Title: "-Mongol Eurasia and Its Aftermath"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Монголы"
+---
+- Date: 1200-1500
+  Title: "-Tropical Africa and Asia"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Доколониальная Африка"
+---
+- Date: 1200-1500
+  Title: "-The Latin West"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Католическая Европа"
+---
+- Date: 1204+
+  Title: "+Wrath of the Khans"
+  Podcast: "Hardcore History"
+  Theme: "Монгольские завоевания, 12 век"
+---
+- Date: 1345
+  Title: "-Hebrew Astrolabe"
+  Podcast: "History of the world in 100 object"
+  Theme: "Навигация "
+---
+- Date: 1346-1353
+  Title: "+Bubonic Nukes"
+  Podcast: "Hardcore History"
+  Theme: "Чума"
+---
+- Date: 1351
+  Title: "-The David Vases"
+  Podcast: "History of the world in 100 object"
+  Theme: "Китайский фарфор"
+---
+- Date: 1375
+  Title: "-Ming Banknote"
+  Podcast: "History of the world in 100 object"
+  Theme: "Мин, деньги"
+---
+- Date: 1400
+  Title: "-Holy Thorn Reliquary"
+  Podcast: "History of the world in 100 object"
+  Theme: "Франция"
+---
+- Date: 1400
+  Title: "-Icon of the Triumph of Orthodoxy"
+  Podcast: "History of the world in 100 object"
+  Theme: "Византия"
+---
+- Date: 1400
+  Title: "-Inca Gold Llama"
+  Podcast: "History of the world in 100 object"
+  Theme: "Империя Инков"
+---
+- Date: 1400
+  Title: "-Benin plaque - the Oba with Europeans"
+  Podcast: "History of the world in 100 object"
+  Theme: "Бенин"
+---
+- Date: 1400
+  Title: "-Double-headed serpent"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ацтеки и Майя"
+---
+- Date: 1400
+  Title: "-Maritime Revolution"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Эпоха Геогр. Открытий"
+---
+- Date: 1420
+  Title: "-Jade Dragon Cup"
+  Podcast: "History of the world in 100 object"
+  Theme: "Тимуриды"
+---
+- Date: 1500
+  Title: "-Conclusions"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Итоги"
+---
+- Date: 1500
+  Title: "-Transformations in Europe, 1500-1750"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Просвещение"
+---
+- Date: 1500-1750
+  Title: "-Southwest Asia and the Indian Ocean"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Просвещение в Азии"
+---
+- Date: 1530-1770
+  Title: "-The Americas, the Atlantic, and Africa "
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Географические Открытия"
+---
+- Date: 1500+
+  Title: "-Early Modern Islamic Governance"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1500+
+  Title: "-Korea, Japan, and China in the 16 Century"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1500-1800
+  Title: "-Northern Eurasia"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1515
+  Title: "-Durer's Rhinoceros"
+  Podcast: "History of the world in 100 object"
+  Theme: "Германия"
+---
+- Date: 1519-1522
+  Title: "+Globalization Unto Death "
+  Podcast: "Hardcore History"
+  Theme: "Путешествия Магеллана"
+---
+- Date: 1520
+  Title: "-Tughra of Suleiman the Magnificent"
+  Podcast: "History of the world in 100 object"
+  Theme: "Османская Империя"
+---
+- Date: 1534-1536
+  Title: "+Prophets of Doom"
+  Podcast: "Hardcore History"
+  Theme: "Мюнстерское восстание"
+---
+- Date: 1550
+  Title: "-Mexican codex map"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ацтеки"
+---
+- Date: 1571-1610 
+  Title: "-Caravaggio"
+  Podcast: "History on Fire 1"
+  Theme: "Караваджо "
+---
+- Date: 1585
+  Title: "-The mechanical galleon"
+  Podcast: "History of the world in 100 object"
+  Theme: "Механика"
+---
+- Date: 1589
+  Title: "-Pieces of eight"
+  Podcast: "History of the world in 100 object"
+  Theme: "Боливия"
+---
+- Date: 1600
+  Title: "-Shadow Puppet of Bima"
+  Podcast: "History of the world in 100 object"
+  Theme: "Ява"
+---
+- Date: 1610
+  Title: "-Miniature of a Mughal prince"
+  Podcast: "History of the world in 100 object"
+  Theme: "Моголы"
+---
+- Date: 1617
+  Title: "-Reformation centenary broadsheet"
+  Podcast: "History of the world in 100 object"
+  Theme: "Реформация"
+---
+- Date: 1625
+  Title: "+The Kingdoms of Charles Stuart"
+  Podcast: "Revolution"
+  Theme: "Английская Революция"
+---
+- Date: 1650
+  Title: "-Kakiemon elephants"
+  Podcast: "History of the world in 100 object"
+  Theme: "Япония"
+---
+- Date: 1650
+  Title: "-The Shi'a religious parade standard"
+  Podcast: "History of the world in 100 object"
+  Theme: "Иран"
+---
+- Date: 1700
+  Title: "-Akan drum"
+  Podcast: "History of the world in 100 object"
+  Theme: "Западная Африка"
+---
+- Date: 1700
+  Title: "-Hawaiian feather helmet"
+  Podcast: "History of the world in 100 object"
+  Theme: "Гавайи"
+---
+- Date: 1750-1850
+  Title: "-Revolutionary Changes in the Atlantic "
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Революции"
+---
+- Date: 1760-1851
+  Title: "-The Early Industrial Revolution"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1761
+  Title: "-Arabia Felix"
+  Podcast: "Ancient Civilizations"
+  Theme: "Датская Арабская Экспедиция"
+---
+- Date: 1770
+  Title: "-Australian bark shield"
+  Podcast: "History of the world in 100 object"
+  Theme: "Австралийские Аборигены"
+---
+- Date: 1774
+  Title: "-North American buckskin map"
+  Podcast: "History of the world in 100 object"
+  Theme: "Американские Индейцы"
+---
+- Date: 1775-1783
+  Title: "-Thirteen Colonies"
+  Podcast: "Revolution"
+  Theme: "Американская Революция"
+---
+- Date: 1789-1799
+  Title: "-The Three Estates"
+  Podcast: "Revolution"
+  Theme: "Французская Революция"
+---
+- Date: 1790
+  Title: "-Jade bi"
+  Podcast: "History of the world in 100 object"
+  Theme: "Китайский Янтарь"
+---
+- Date: 1791
+  Title: "-Saint-Domingue"
+  Podcast: "Revolution"
+  Theme: "Гаитянская Революция"
+---
+- Date: 1800
+  Title: "-Ship's chronometer from HMS Beagle"
+  Podcast: "History of the world in 100 object"
+  Theme: "Дарвин"
+---
+- Date: 1800
+  Title: "-Egypt and the Ottoman Empire"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1800
+  Title: "-British India "
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1800
+  Title: "-Nineteenth Century China"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1800
+  Title: "-Africa in the nineteenth century"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1800
+  Title: "-Nineteenth Century isms"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1800
+  Title: "-Velocity and Modernity"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1800
+  Title: "-Social Darwinism"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1804
+  Title: "-The Duel"
+  Podcast: "History on Fire 0"
+  Theme: "дуэль американского президента "
+---
+- Date: 1808
+  Title: "-Simon Bolivar"
+  Podcast: "Revolution"
+  Theme: "латиноамериканские революции"
+---
+- Date: 1886
+  Title: "+Apache Tears "
+  Podcast: "Hardcore History"
+  Theme: "Война с Апачи"
+---
+- Date: 1814
+  Title: "-Revolutions 6"
+  Podcast: "Revolution"
+  Theme: "реставрация Бурбонов"
+---
+- Date: 1830
+  Title: "-Hokusai's The Great Wave"
+  Podcast: "History of the world in 100 object"
+  Theme: "Токугава"
+---
+- Date: 1840
+  Title: "-Early Victorian tea set"
+  Podcast: "History of the world in 100 object"
+  Theme: "Викторианская Эра"
+---
+- Date: 1850
+  Title: "-Sudanese slit drum"
+  Podcast: "History of the world in 100 object"
+  Theme: "Судан"
+---
+- Date: 1866
+  Title: "-Crazy Horse"
+  Podcast: "History on Fire 0"
+  Theme: "Индийские Войны"
+---
+- Date: 1876-1877
+  Title: "-The War of the Black Hills"
+  Podcast: "History on Fire 1"
+  Theme: "Война Сиу"
+---
+- Date: 1898
+  Title: "+The American Peril"
+  Podcast: "Hardcore History"
+  Theme: "Америка в конце 19 века"
+---
+- Date: 1898
+  Title: "-Rough Rider and his demons"
+  Podcast: "History on Fire 1"
+  Theme: "Теодор Рузвельт"
+---
+- Date: 1900
+  Title: "-The Twentieth Century in History"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1903
+  Title: "-Suffragette-defaced penny"
+  Podcast: "History of the world in 100 object"
+  Theme: "Суфражизм"
+---
+- Date: 1919
+  Title: "+Scars of the Great War "
+  Podcast: "Hardcore History"
+  Theme: "После Первой Мировой"
+---
+- Date: 1919-1939
+  Title: "+The Organization of Peace "
+  Podcast: "Hardcore History"
+  Theme: "Лига Наций"
+---
+- Date: 1921
+  Title: "-Russian revolutionary plate"
+  Podcast: "History of the world in 100 object"
+  Theme: "Граданская Война в России"
+---
+- Date: 1929-1939
+  Title: "+Desperate Times"
+  Podcast: "Hardcore History"
+  Theme: "Великая Депрессия"
+---
+- Date: 1945+
+  Title: "+Radical Thoughts"
+  Podcast: "Hardcore History"
+  Theme: "Красная угроза"
+---
+- Date: 1890-1965
+  Title: "+Thoughts on Churchill"
+  Podcast: "Hardcore History"
+  Theme: "Уинстон черчилль"
+---
+- Date: 1919-1945
+  Title: "+Nazi Tidbits"
+  Podcast: "Hardcore History"
+  Theme: "Гитлер"
+---
+- Date: 1941-1945
+  Title: "-Ghosts of the Ostfront "
+  Podcast: "Hardcore History"
+  Theme: "Вторая Мировая"
+---
+- Date: 1941-1945
+  Title: "-Pivotal points of WWII"
+  Podcast: "History Extr"
+  Theme: "Ключевые моменты Второй Мировой"
+---
+- Date: 1941-1945
+  Title: "-WWII memories from veterans"
+  Podcast: "History Extr"
+  Theme: "Вторая Мировая"
+---
+- Date: 1945
+  Title: "-Logical Insanity"
+  Podcast: "Hardcore History"
+  Theme: "Атомные бомбы"
+---
+- Date: 1945-1991
+  Title: "-Meandering Through The Cold War "
+  Podcast: "Hardcore History"
+  Theme: "Холодная война"
+---
+- Date: 1945+
+  Title: "-Decolonization"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1947+
+  Title: "-America and the Cold War"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Холодная Война"
+---
+- Date: 1947+
+  Title: "-Human/Animal Relations"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1947+
+  Title: "-Concluding Reflections"
+  Podcast: "Richard Bulliet - History of the World to 1500 CE"
+  Theme: "Обзор"
+---
+- Date: 1966
+  Title: "-Hockney's In the Dull Village"
+  Podcast: "History of the world in 100 object"
+  Theme: "Права человека"
+---
+- Date: 2000
+  Title: "-Credit card"
+  Podcast: "History of the world in 100 object"
+  Theme: "Кредитная Карта"
+---
+- Date: 2001
+  Title: "-Throne of Weapons"
+  Podcast: "History of the world in 100 objec"
+  Theme: "Мозамбик"
