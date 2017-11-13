@@ -112,11 +112,19 @@ class CreateRootWindow:
         
         # Right-click Menu
         menu = tkinter.Menu(root)
+        
+        # Binding the Menu to the RMB
+        root.bind('<3>', lambda e: menu.post(e.x_root, e.y_root))
+        
+        #Menu options
         menu.add_command(
             label="Delete",
             command = lambda:self.delete_entry()
             )
-        root.bind('<3>', lambda e: menu.post(e.x_root, e.y_root))
+        menu.add_command(
+            label = "Edit",
+            command = lambda:self.edit_entry()
+            )
         
         # This makes sure widgets stretch to the window
         window.grid_rowconfigure(0, weight=1)
@@ -129,6 +137,13 @@ class CreateRootWindow:
             self.tree.selection())
             )
         self.tree.delete(self.tree.selection())
+        
+    
+    def edit_entry(self):
+        tkinter.messagebox.showinfo(
+            "Test", 
+            self.tree.item(self.tree.selection())
+            )
 
 
 def show_data():

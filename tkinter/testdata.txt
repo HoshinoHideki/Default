@@ -54,7 +54,7 @@ Theme: Ментухотеп IV
 Title: +Seven Empty Years
 ---
 Date: -1900
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Металлургия
 Title: +Mold Gold Cape
 ---
@@ -79,7 +79,7 @@ Theme: Собекхотеп
 Title: +Between Two Worlds
 ---
 Date: -1700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Минойская Цивилизация
 Title: +Minoan Bull Leaper
 ---
@@ -109,7 +109,7 @@ Theme: Новое Царство
 Title: +The New Kingdoms
 ---
 Date: -1500
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Математика в Древнем Египте
 Title: +Rhind Mathematical Papyrus
 ---
@@ -164,7 +164,7 @@ Theme: Троянская Война
 Title: +The Thousand Year Gap
 ---
 Date: -1250
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Статуя Рамзеса великого
 Title: +Statue of Ramesses II
 ---
@@ -219,7 +219,7 @@ Theme: Династия Чжоу
 Title: +Heaven Does Not Make Propositions
 ---
 Date: -1046
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Династия Чжоу
 Title: +Chinese Zhou Ritual Vessel
 ---
@@ -239,7 +239,7 @@ Theme: 'Израиль '
 Title: +The Ancient Israelites
 ---
 Date: -900
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ольмеки
 Title: +Olmec Stone Mask
 ---
@@ -274,12 +274,12 @@ Theme: Восточное Чжоу
 Title: +The Shattered Empire
 ---
 Date: до -753
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: 'Эней и Ромул '
 Title: '+In the Beginning '
 ---
 Date: -753:-716
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Ромул
 Title: +Youthful Indiscretions
 ---
@@ -319,7 +319,7 @@ Theme: Дур-Шаррукин
 Title: +Dwelling of the Lions
 ---
 Date: -716:-509
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Римское Царство
 Title: +The Seven Kings of Rome
 ---
@@ -344,12 +344,12 @@ Theme: Езекия
 Title: '+Battle Royale: Assyria v Babylon v Egypt'
 ---
 Date: -700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ассирийская Табличка
 Title: +Flood Tablet
 ---
 Date: -700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Осада Лахиша
 Title: +Lachish Reliefs
 ---
@@ -359,7 +359,7 @@ Theme: Гесиод
 Title: +The Fifth Generation
 ---
 Date: -680
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Куш
 Title: +Sphinx of Taharqo
 ---
@@ -454,12 +454,12 @@ Theme: Конфуций
 Title: +Confucius Says...
 ---
 Date: -550
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Лидия
 Title: +Gold Coin of Croesus
 ---
 Date: -550
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Лидия
 Title: +Oxus Chariot Model
 ---
@@ -524,7 +524,7 @@ Theme: Гиппарх
 Title: +Things Fixed, Things Moving
 ---
 Date: -509
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Утверждение римской республики
 Title: +The Public Thing
 ---
@@ -544,7 +544,7 @@ Theme: Битва при Боцзю
 Title: +The Widening Gyre
 ---
 Date: -500
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Музыка древнего китая
 Title: +Chinese Bronze Bell
 ---
@@ -564,7 +564,7 @@ Theme: Итоги
 Title: +And Then What Happened?
 ---
 Date: -494
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Должность народного Трибуна
 Title: +Trials and Tribunlations
 ---
@@ -616,51 +616,71 @@ Title: +Athens Strikes Back!
 Date: -466
 Podcast: History of Greece
 Theme: Битва при Эвримидоне
-Title: -The end of an Era
+Title: +The end of an Era
 ---
 Date: -461
 Podcast: Podcast History
 Theme: Перикл
-Title: -The Age of Pericles
+Title: +The Age of Pericles
+---
+Date: -461
+Podcast: History of Greece
+Theme: Пелопоннесская Война
+Title: +The Undeclared War
 ---
 Date: -451
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Римское Законодательство
-Title: -The Twelve Tables
+Title: +The Twelve Tables
 ---
 Date: -458
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Цинциннат
-Title: -The Roman Washington
+Title: +The Roman Washington
 ---
 Date: -451+
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Римское Законодательство
-Title: -Decades of Gloom
+Title: +Decades of Gloom
 ---
 Date: -450
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Древнегреческое искусство
-Title: Basse Yutz Flagons
+Title: +Basse Yutz Flagons
 ---
 Date: -447-432
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Древнегреческая культура
-Title: '-Parthenon Sculpture: Centaur and Lapith'
+Title: '+Parthenon Sculpture: Centaur and Lapith'
 ---
 Date: -431
 Podcast: Myths and History of Greece and Rome
 Theme: Пелопоннесская Война
-Title: -The Enemy at Home
+Title: +The Enemy at Home
+---
+Date: '-431'
+Podcast: Podcast History
+Theme: Пелопонесская Война
+Title: +The Peloponesian War
 ---
 Date: -429
 Podcast: Literatur
 Theme: Эдип
 Title: -The Requiem at Athens
 ---
+Date: -429
+Podcast: History of Greece
+Theme: Софокл
+Title: -Sophocles
+---
+Date: '-418'
+Podcast: Myths and History of Ancient Greece
+Theme: Алкивиад
+Title: The Talker and the Sailor
+---
 Date: -401
 Podcast: History on Fire 0
-Theme: 'Анабасис '
+Theme: Анабасис
 Title: -The 10 000
 ---
 Date: -401
@@ -668,13 +688,18 @@ Podcast: The Almost Forgotten
 Theme: Марк Фурий Камилл и война с галлами
 Title: -Marcus Furius Camillus
 ---
+Date: '-400'
+Podcast: Podcast History
+Theme: Сократ
+Title: -The death of Socrates
+---
 Date: -396
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Война с Этрусками
 Title: -A Trojan War
 ---
 Date: -390
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Битва при Аллии
 Title: -Barbarians at the Gate
 ---
@@ -684,7 +709,7 @@ Theme: Цинь
 Title: -Qin's Reformation And Ascension
 ---
 Date: -367
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Плебеи и консулат
 Title: -The Morning After
 ---
@@ -694,17 +719,17 @@ Theme: Александр Македонский
 Title: '+Alexander Vs Hitler '
 ---
 Date: -343:-341
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Первая самнитская война
 Title: -First Samnite War
 ---
 Date: -340:-338
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Война с Латинской Лигой
 Title: -The Latin War
 ---
 Date: -340
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Фаланга
 Title: -A Phalanx With Joints
 ---
@@ -718,8 +743,13 @@ Podcast: Iranian History
 Theme: Hellenistic Iran
 Title: -Lecture 6
 ---
+Date: '-322'
+Podcast: The Almost Forgotten
+Theme: Чандрагупта Маурья
+Title: Chandragupta Maurya
+---
 Date: -321
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Вторая война с Самнитами
 Title: -The Second Samnite War
 ---
@@ -729,17 +759,17 @@ Theme: Войны Диадохов
 Title: +The Macedonian Soap Opera
 ---
 Date: -305
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Экономика македонской империи
 Title: -Head of Alexander
 ---
 Date: -300
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Инки
 Title: -Paracas Textile
 ---
 Date: -298-290
-Podcast: History of Rom
+Podcast: History of Rome
 Theme: Третья война с Самнитами
 Title: -The Third Samnite War
 ---
@@ -764,7 +794,7 @@ Theme: Пунические Войны
 Title: Prelude
 ---
 Date: -238
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ашока
 Title: -Pillar of Ashoka
 ---
@@ -794,12 +824,12 @@ Theme: Гаоцзу
 Title: -Xiongnu to the Left of Me, Rebels ttRight
 ---
 Date: -200
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Табак
 Title: -North American Otter Pipe
 ---
 Date: -196
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Розеттский Камень
 Title: -Rosetta Stone
 ---
@@ -842,6 +872,11 @@ Date: -133
 Podcast: The History of China
 Theme: После войны Хань-Сюнну
 Title: -Every Direction But The Sea
+---
+Date: '-117'
+Podcast: The Almost Forgotten
+Theme: Митридат
+Title: Mithridates the Great
 ---
 Date: -87
 Podcast: The History of China
@@ -889,7 +924,7 @@ Theme: Юба II
 Title: -Limitem Mundi
 ---
 Date: -27:-25
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Октавиан Август
 Title: -Head of Augustus
 ---
@@ -899,12 +934,12 @@ Theme: Птолемей и Друзилия
 Title: -Eclipsis
 ---
 Date: 4
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Династия Хань
 Title: -Chinese Han lacquer cup
 ---
 Date: 5
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Римская Империя
 Title: -Warren Cup
 ---
@@ -1004,22 +1039,22 @@ Theme: Аннексия Коммагены
 Title: -Betrayal
 ---
 Date: 100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Майя
 Title: -Ceremonial Ballgame Belt
 ---
 Date: 100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Буддизм
 Title: -Seated Buddha from Gandhara
 ---
 Date: 100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Доисламский Египет
 Title: -Arabian Bronze Hand
 ---
 Date: 100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Инки, Моче
 Title: -Moche Warrior Pot
 ---
@@ -1188,6 +1223,11 @@ Podcast: Ancient Civilizations
 Theme: Валериан
 Title: -Sibylline
 ---
+Date: 260
+Podcast: The Almost Forgotten
+Theme: Зенобия
+Title: -Zenobia
+---
 Date: 266
 Podcast: The History of China
 Theme: Цзинь
@@ -1199,17 +1239,17 @@ Theme: Война Восьми Принцев
 Title: -The Disorder Of The Eight Princes
 ---
 Date: 300
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Римская Британия
 Title: -Hoxne Pepper Pot
 ---
 Date: 300
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Сасаниды
 Title: -Silver Plate Showing Shapur II
 ---
 Date: 300
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Христианство в Британии
 Title: -Hinton St Mary Mosaic
 ---
@@ -1244,7 +1284,7 @@ Theme: Средневековая Азия
 Title: -Inner and East Asia
 ---
 Date: 415
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Гупты
 Title: -Gold Coin of Kumaragupta I
 ---
@@ -1259,12 +1299,12 @@ Theme: Веcтготы и Франки
 Title: +Thor’s Angels
 ---
 Date: 500
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Китайское искусство
 Title: -Admonitions Scroll
 ---
 Date: 500
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Саксы и Викинги
 Title: Sutton Hoo Helmet
 ---
@@ -1273,13 +1313,18 @@ Podcast: Japanese History
 Theme: Зарождение Японии
 Title: -A Kingdom Called Wa
 ---
+Date: 581
+Podcast: The Almost Forgotten
+Theme: Император Вен
+Title: -Wen of Sui
+---
 Date: 600
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Китайский Шелк
 Title: -Silk Princess Painting
 ---
 Date: 600
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Майя
 Title: -Maya Relief of Royal Blood-Letting
 ---
@@ -1299,57 +1344,62 @@ Theme: Исламские завоевания
 Title: Early Islamic Conquest
 ---
 Date: 696
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Арабский Халифат
 Title: -Gold Coins of Abd al-Malik
 ---
 Date: 700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Корея
 Title: -Korean Roof Tile
 ---
 Date: 700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Шри-Ланка
 Title: -Statue of Tara
 ---
 Date: 728
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Династия Тан
 Title: -Chinese Tang tomb figures
 ---
 Date: 750
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Остров Ява
 Title: -Borobudur Buddha head
 ---
 Date: 800
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Арабский Халифат
 Title: -Harem wall painting fragments
 ---
 Date: 855
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Королевство Франков
 Title: -Lothair Crystal
 ---
 Date: 900
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Килва и Занзибар
 Title: -Kilwa pot sherds
 ---
 Date: 900
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ацтеки
 Title: -Statue of Huastec Goddess
 ---
 Date: 927
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Саксоны и Викинги
 Title: -Vale of York Hoard
 ---
+Date: 962
+Podcast: The Almost Forgotten
+Theme: Оттон Великий
+Title: -Otto the Great
+---
 Date: 1000
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Рапа Нуи
 Title: -Hoa Hakananai'a Easter Island Statue
 ---
@@ -1359,17 +1409,17 @@ Theme: Норманнское вторжение, 11 век
 Title: +The What-Ifs Of 1066
 ---
 Date: 1100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Сирия
 Title: -Hedwig glass beaker
 ---
 Date: 1100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: 'Япония '
 Title: -Japanese bronze mirror
 ---
 Date: 1100
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Африка
 Title: -Ife Head
 ---
@@ -1379,17 +1429,22 @@ Theme: Второй Крестовый Поход
 Title: -Onboard with the Vikings and on a crusade
 ---
 Date: 1150
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Норвегия
 Title: -Lewis Chessmen
 ---
+Date: 1192
+Podcast: The Almost Forgotten
+Theme: Четвертый крестовый поход
+Title: -Enrico Dandolo
+---
 Date: 1200
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Араваки
 Title: -Taino Ritual Seat
 ---
 Date: 1200
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Индия
 Title: -Shiva and Parvati Sculpture
 ---
@@ -1414,7 +1469,7 @@ Theme: Монгольские завоевания, 12 век
 Title: +Wrath of the Khans
 ---
 Date: 1345
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: 'Навигация '
 Title: -Hebrew Astrolabe
 ---
@@ -1424,37 +1479,42 @@ Theme: Чума
 Title: +Bubonic Nukes
 ---
 Date: 1351
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Китайский фарфор
 Title: -The David Vases
 ---
 Date: 1375
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Мин, деньги
 Title: -Ming Banknote
 ---
+Date: 1389
+Podcast: The Almost Forgotten
+Theme: Малаккский султанат
+Title: -Parameswara
+---
 Date: 1400
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Франция
 Title: -Holy Thorn Reliquary
 ---
 Date: 1400
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Византия
 Title: -Icon of the Triumph of Orthodoxy
 ---
 Date: 1400
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Империя Инков
 Title: -Inca Gold Llama
 ---
 Date: 1400
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Бенин
 Title: -Benin plaque - the Oba with Europeans
 ---
 Date: 1400
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ацтеки и Майя
 Title: -Double-headed serpent
 ---
@@ -1464,7 +1524,7 @@ Theme: Эпоха Геогр. Открытий
 Title: -Maritime Revolution
 ---
 Date: 1420
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Тимуриды
 Title: -Jade Dragon Cup
 ---
@@ -1482,6 +1542,11 @@ Date: 1500-1750
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Просвещение в Азии
 Title: -Southwest Asia and the Indian Ocean
+---
+Date: 1500
+Podcast: The Almost Forgotten
+Theme: Османский Флот
+Title: -Khayreddin Barbarossa
 ---
 Date: 1530-1770
 Podcast: Richard Bulliet - History of the World to 1500 CE
@@ -1504,7 +1569,7 @@ Theme: Обзор
 Title: -Northern Eurasia
 ---
 Date: 1515
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Германия
 Title: -Durer's Rhinoceros
 ---
@@ -1514,7 +1579,7 @@ Theme: Путешествия Магеллана
 Title: '+Globalization Unto Death '
 ---
 Date: 1520
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Османская Империя
 Title: -Tughra of Suleiman the Magnificent
 ---
@@ -1524,7 +1589,7 @@ Theme: Мюнстерское восстание
 Title: +Prophets of Doom
 ---
 Date: 1550
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ацтеки
 Title: -Mexican codex map
 ---
@@ -1534,27 +1599,27 @@ Theme: 'Караваджо '
 Title: -Caravaggio
 ---
 Date: 1585
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Механика
 Title: -The mechanical galleon
 ---
 Date: 1589
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Боливия
 Title: -Pieces of eight
 ---
 Date: 1600
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Ява
 Title: -Shadow Puppet of Bima
 ---
 Date: 1610
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Моголы
 Title: -Miniature of a Mughal prince
 ---
 Date: 1617
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Реформация
 Title: -Reformation centenary broadsheet
 ---
@@ -1564,22 +1629,27 @@ Theme: Английская Революция
 Title: +The Kingdoms of Charles Stuart
 ---
 Date: 1650
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Япония
 Title: -Kakiemon elephants
 ---
 Date: 1650
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Иран
 Title: -The Shi'a religious parade standard
 ---
+Date: '1674'
+Podcast: The Almost Forgotten
+Theme: Ян Собеский
+Title: John III Sobieski
+---
 Date: 1700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Западная Африка
 Title: -Akan drum
 ---
 Date: 1700
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Гавайи
 Title: -Hawaiian feather helmet
 ---
@@ -1599,12 +1669,12 @@ Theme: Датская Арабская Экспедиция
 Title: -Arabia Felix
 ---
 Date: 1770
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Австралийские Аборигены
 Title: -Australian bark shield
 ---
 Date: 1774
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Американские Индейцы
 Title: -North American buckskin map
 ---
@@ -1619,7 +1689,7 @@ Theme: Французская Революция
 Title: -The Three Estates
 ---
 Date: 1790
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Китайский Янтарь
 Title: -Jade bi
 ---
@@ -1629,7 +1699,7 @@ Theme: Гаитянская Революция
 Title: -Saint-Domingue
 ---
 Date: 1800
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Дарвин
 Title: -Ship's chronometer from HMS Beagle
 ---
@@ -1689,17 +1759,17 @@ Theme: реставрация Бурбонов
 Title: -Revolutions 6
 ---
 Date: 1830
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Токугава
 Title: -Hokusai's The Great Wave
 ---
 Date: 1840
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Викторианская Эра
 Title: -Early Victorian tea set
 ---
 Date: 1850
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Судан
 Title: -Sudanese slit drum
 ---
@@ -1729,7 +1799,7 @@ Theme: Обзор
 Title: -The Twentieth Century in History
 ---
 Date: 1903
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Суфражизм
 Title: -Suffragette-defaced penny
 ---
@@ -1744,7 +1814,7 @@ Theme: Лига Наций
 Title: '+The Organization of Peace '
 ---
 Date: 1921
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Граданская Война в России
 Title: -Russian revolutionary plate
 ---
@@ -1814,12 +1884,12 @@ Theme: Обзор
 Title: -Concluding Reflections
 ---
 Date: 1966
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Права человека
 Title: -Hockney's In the Dull Village
 ---
 Date: 2000
-Podcast: History of the world in 100 object
+Podcast: History of the world in 100 objects
 Theme: Кредитная Карта
 Title: -Credit card
 ---
