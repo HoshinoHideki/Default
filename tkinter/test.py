@@ -1,217 +1,245 @@
-import tkinter             # interface
-import tkinter.ttk         # 
-import tkinter.messagebox  # 
-import yaml                # database editing
+import tkinter  # interface
+import tkinter.ttk
+import tkinter.messagebox
+import yaml  # database editing
 
 
 class CreateRootWindow:
+    
     """Window Class."""
+
     def __init__(self, window):
         self.window = window
+        
+        # This removes dashed line from the menu.
         window.option_add('*tearOff', False)
-        # Title
+        
+        # Title.
         window.title("Podcast Tracker")
-        
-        # Creating stuff
-        # Tabs frame
+
+        # Creating stuff.
+        # Tabs frame.
         self.tabs = tkinter.ttk.Notebook(window)
-        
-        # Entries tab & text label
+
+        # Entries tab & text label.
         self.entries = tkinter.ttk.Frame(window)
         self.tabs.add(self.entries, text="Entries")
         self.tabs.grid(row=0, column=0, sticky="nsew")
-        
-        # New entries tab & text label
+
+        # New entries tab & text label.
         self.add = tkinter.ttk.Frame(self.tabs)
         self.tabs.add(self.add, text="Add")
-        
-        # The table
+
+        # The table.
         self.tree = tkinter.ttk.Treeview(
             self.entries,
-            columns=("Title", "Theme", "Podcast")
+            columns=(
+                "Title",
+                "Theme",
+                "Podcast"
+                )
             )
+        
+        # Setting the names for the column headings.
         self.tree.heading("#0", text="Date")
         self.tree.heading("Title", text="Title")
         self.tree.heading("Theme", text="Theme")
         self.tree.heading("Podcast", text="Podcast")
         self.tree.grid(row=0, column=0, sticky="nsew")
-        
-        # The scrollbar
+
+        # The scrollbar.
         self.scrollbar = tkinter.ttk.Scrollbar(
             self.entries,
             orient="vertical",
             command=self.tree.yview
             )
-        # This feedbacks data to the scrollbar
+            
+        # This feedbacks data to the scrollbar.
         self.tree["yscrollcommand"] = self.scrollbar.set
         self.scrollbar.grid(row=0, column=1, sticky="nes")
-        
-        # Adding Labels and Entries
+
+        # Adding Labels and Entries.
         self.new_entry_label = tkinter.ttk.Label(
             self.add,
             text="Add New Entry:"
             )
         self.new_entry_label.grid(row=0, column=0)
 
-        # Date Label
-        self.date_label = tkinter.ttk.Label(
-            self.add,
-            text="Date:"
-            )
+        # Date Label.
+        self.date_label = tkinter.ttk.Label(self.add, text="Date:")
         self.date_label.grid(row=1, column=0)
 
-        # Date Entry
+        # Date Entry.
         self.date_entry = tkinter.ttk.Entry(self.add)
-        self.date_entry.grid(row=1, column=1,)
+        self.date_entry.grid(row=1, column=1)
 
-        # Title Label
-        self.title_label = tkinter.ttk.Label(
-            self.add,
-            text="Title:"
-            )
+        # Title Label.
+        self.title_label = tkinter.ttk.Label(self.add, text="Title:")
         self.title_label.grid(row=2, column=0)
-        
-        # Title Entry
+
+        # Title Entry.
         self.title_entry = tkinter.ttk.Entry(self.add)
         self.title_entry.grid(row=2, column=1)
-        
-        # Podcast Label
-        self.podcast_label = tkinter.ttk.Label(
-            self.add,
-            text="Podcast:"
-            )
+
+        # Podcast Label.
+        self.podcast_label = tkinter.ttk.Label(self.add, text="Podcast:")
         self.podcast_label.grid(row=3, column=0)
-        
+
         # Podcast Entry.
         self.podcast_entry = tkinter.ttk.Entry(self.add)
         self.podcast_entry.grid(row=3, column=1)
-        
+
         # Theme Label.
-        self.theme_label = tkinter.ttk.Label(
-            self.add,
-            text="Theme:"
-            )
+        self.theme_label = tkinter.ttk.Label(self.add, text="Theme:")
         self.theme_label.grid(row=4, column=0)
-        
+
         # Theme Entry.
         self.theme_entry = tkinter.ttk.Entry(self.add)
         self.theme_entry.grid(row=4, column=1)
-        
-        # Adding the Save Button
+
+        # Adding the Save Button.
         self.save_button = tkinter.ttk.Button(
             self.add,
             text="Save (test)",
-            command=save_data)
+            command=self.save_data)
         self.save_button.grid(row=5, column=0)
         
+        # Button for adding an entry.
         self.add_button = tkinter.ttk.Button(
             self.add,
             text="Add (test)",
-            command= lambda: add_data(self))
+            command=lambda: self.add_data()
+            )
         self.add_button.grid(row=5, column=1)
-        
+
         # Right-click Menu
-        menu = tkinter.Menu(root)
-        
+        self.menu = tkinter.Menu(window)
+
         # Binding the Menu to the RMB
-        root.bind('<3>', lambda e: menu.post(e.x_root, e.y_root))
-        
-        #Menu options
-        menu.add_command(
+        window.bind('<3>', lambda e: self.menu.post(e.x_root, e.y_root))
+
+        # Menu options
+        self.menu.add_command(
             label="Delete",
-            command = lambda:self.delete_entry()
+            command=lambda: self.delete_entry()
             )
-        menu.add_command(
-            label = "Edit",
-            command = lambda:self.edit_entry()
+        self.menu.add_command(
+            label="Edit",
+            command=lambda: self.edit_entry()
             )
-        
+
         # This makes sure widgets stretch to the window
         window.grid_rowconfigure(0, weight=1)
         window.grid_columnconfigure(0, weight=1)
         self.entries.grid_rowconfigure(0, weight=1)
         self.entries.grid_columnconfigure(0, weight=1)
-        
+
+        self.show_data()
+
     def delete_entry(self):
-        print(self.tree.item(
-            self.tree.selection())
-            )
         self.tree.delete(self.tree.selection())
-        
-    
+
     def edit_entry(self):
-        tkinter.messagebox.showinfo(
-            "Test", 
-            self.tree.item(self.tree.selection())
-            )
+        string = self.tree.item(self.tree.selection())
+        message = """\
+Date: {0}
+Title: {1}
+Theme: {2} 
+Podcast: {3}\
+""".format(
+    string["text"],
+    string["values"][0],
+    string["values"][1],
+    string["values"][2]
+    )
+        tkinter.messagebox.showinfo("Test", message)
 
+    def show_data(self):
+        """Loads the data into the window."""
+        data = list(yaml.load_all(open(
+            "newtestdata.txt",
+            "r",
+            encoding="UTF-8"
+            )))
 
-def show_data():
-    """Loads the data into the window."""
-    for item in data:
-        rroot.tree.insert(
-            "",
-            "end",
-            text=item["Date"],
-            values=(
-                item["Title"],
-                item["Theme"],
-                item["Podcast"]
+        for item in data:
+            self.tree.insert(
+                "",
+                "end",
+                text=item["Date"],
+                values=(
+                    item["Title"],
+                    item["Theme"],
+                    item["Podcast"]
+                    )
                 )
-            )
 
+    def save_data(self):
+        """Saves the data into the file."""
+        
+        # Creating a list which we are gonna save to file.
+        newdata = []
+        for item in self.tree.get_children():
+            raw_item = self.tree.item(item)
+            entry = {
+                "Date": raw_item["text"],
+                "Title": raw_item["values"][0],
+                "Theme": raw_item["values"][1],
+                "Podcast": raw_item["values"][2]
+                }
+            newdata.append(entry)
 
-def save_data():
-    """Saves the data into the file."""
-    with open("testdata.txt", "w", encoding="UTF-8") as outputfile:
-        outputfile.write(yaml.dump_all(
-            data,
-            allow_unicode=True,
-            default_flow_style=False
-            )
-        )
-    rroot.save_button["text"] = "Saved."
-    reload_data(rroot)
+        # Dumping the data into the file.
+        with open("newtestdata.txt", "w", encoding="UTF-8") as outputfile:
+            outputfile.write(
+                yaml.dump_all(
+                    newdata,
+                    allow_unicode=True,
+                    default_flow_style=False
+                    )
+                )
+        self.save_button["text"] = "Saved."
+        self.reload_data()
 
+    def clear_data(self):
+        """Clears the table"""
+        self.tree.delete(*self.tree.get_children())
 
-def add_data(app):
-    """Adds new entry into the list."""
-    NewDate = app.date_entry.get()
-    NewTitle = app.title_entry.get()
-    NewPodcast = app.podcast_entry.get()
-    NewTheme = app.theme_entry.get()
-    NewEntry = {
-        "Date" : NewDate,
-        "Title" : NewTitle,
-        "Podcast" : NewPodcast,
-        "Theme" : NewTheme}
-    
-    # Make sure if every entry is filled
-    if not all(NewEntry.values()):
-        tkinter.messagebox.showinfo("Error", "Fill all fields.")
-    else:
-        data.append(NewEntry)
-        app.add_button["text"] = "Added."
+    def reload_data(self):
+        """Reloads the table"""
+        self.clear_data()
+        self.show_data()
 
+    def add_data(self):
+        """Adds new entry into the list."""
+        newdate = self.date_entry.get()
+        newtitle = self.title_entry.get()
+        newpodcast = self.podcast_entry.get()
+        newtheme = self.theme_entry.get()
+        newentry = {
+            "Date": newdate,
+            "Title": newtitle,
+            "Podcast": newpodcast,
+            "Theme": newtheme
+            }
 
-def clear_data(app):
-    app.tree.delete(*app.tree.get_children())
-
-
-def reload_data(app):
-    clear_data(app)
-    show_data()
-
-
-
-
-    
-# Loads the data into the application.
-data = list(yaml.load_all(open("testdata.txt", "r", encoding="UTF-8")))
-
+        # Make sure if every entry is filled
+        if not all(newentry.values()):
+            tkinter.messagebox.showinfo("Error", "Fill all fields.")
+        else:
+            self.tree.insert(
+                "",
+                "end",
+                text=newentry["Date"],
+                values=(
+                    newentry["Title"],
+                    newentry["Theme"],
+                    newentry["Podcast"]
+                    )
+                )
+            self.add_button["text"] = "Added."
 
 root = tkinter.Tk()
 rroot = CreateRootWindow(root)
 
-show_data()
 root.mainloop()
