@@ -2,6 +2,7 @@ import tkinter  # interface
 import tkinter.ttk
 import tkinter.messagebox
 import yaml  # database editing
+import time # pauses
 
 
 class CreateRootWindow:
@@ -135,24 +136,87 @@ class CreateRootWindow:
         self.entries.grid_columnconfigure(0, weight=1)
 
         self.show_data()
-
+    
+    # This deletes entry from the list
     def delete_entry(self):
         self.tree.delete(self.tree.selection())
 
+    # This is an entry editing widget
     def edit_entry(self):
-        string = self.tree.item(self.tree.selection())
-        message = """\
-Date: {0}
-Title: {1}
-Theme: {2} 
-Podcast: {3}\
-""".format(
-    string["text"],
-    string["values"][0],
-    string["values"][1],
-    string["values"][2]
-    )
-        tkinter.messagebox.showinfo("Test", message)
+        ItemString = self.tree.item(self.tree.selection())
+        EditWindow = tkinter.Toplevel()  # creates new window
+        EditWindow.title("Editing an entry...")
+        
+        # This fetches the item data
+        #ItemString = self.tree.item(self.tree.selection())
+        
+        # This creates labels and entries.
+        
+        # Date
+        EditEntryDateLabel = tkinter.ttk.Label(EditWindow, text="Date:")
+        EditEntryDateLabel.grid(row=0, column=0)
+        
+        EditEntryDateEntry = tkinter.ttk.Entry(EditWindow)
+        EditEntryDateEntry.insert(0, ItemString["text"])
+        EditEntryDateEntry.grid(row=0, column=1)        
+        
+        # Title
+        EditEntryTitleLabel = tkinter.ttk.Label(EditWindow, text="Title:")
+        EditEntryTitleLabel.grid(row=1, column=0)
+ 
+        EditEntryTitleEntry = tkinter.ttk.Entry(EditWindow)
+        EditEntryTitleEntry.insert(0, ItemString["values"][0])
+        EditEntryTitleEntry.grid(row=1, column=1)  
+ 
+        # Theme
+        EditEntryThemeLabel = tkinter.ttk.Label(EditWindow, text="Theme:")
+        EditEntryThemeLabel.grid(row=2, column=0)        
+
+        EditEntryThemeEntry = tkinter.ttk.Entry(EditWindow)
+        EditEntryThemeEntry.insert(0, ItemString["values"][1])
+        EditEntryThemeEntry.grid(row=2, column=1)
+        
+        # Podcast
+        EditEntryPodcastLabel = tkinter.ttk.Label(EditWindow, text="Podcast:")
+        EditEntryPodcastLabel.grid(row=3, column=0)
+        
+        EditEntryPodcastEntry = tkinter.ttk.Entry(EditWindow)
+        EditEntryPodcastEntry.insert(0, ItemString["values"][2])
+        EditEntryPodcastEntry.grid(row=3, column=1)
+        
+        # Close Button
+        EditEntryCloseButton = tkinter.ttk.Button(
+            EditWindow,
+            text="Close",
+            command=EditWindow.destroy
+            )
+        EditEntryCloseButton.grid(row=4, column=0)
+        
+        # Edit Button
+        EditEntryEditButton = tkinter.ttk.Button(
+            EditWindow,
+            text="Edit",
+            command= lambda:self.edit_data()
+            )
+        EditEntryEditButton.grid(row=4, column=1)
+    
+        def edit_data(self):
+            ItemString["text"] = EditEntryDateEntry.get()
+            ItemString["values"][0] = EditEntryTitleEntry.get()
+            ItemString["values"][1] = EditEntryThemeEntry.get()
+            ItemString["values"][2] = EditEntryPodcastEntry.get()
+            EditWindow.destroy()
+        # message = """\
+# Date: {0}
+# Title: {1}
+# Theme: {2} 
+# Podcast: {3}\
+# """.format(
+    # string["text"],
+    # string["values"][0],
+    # string["values"][1],
+    # string["values"][2]
+    # )
 
     def show_data(self):
         """Loads the data into the window."""
@@ -200,6 +264,8 @@ Podcast: {3}\
                 )
         self.save_button["text"] = "Saved."
         self.reload_data()
+        self.save_button.after(5000)
+        self.save_button["text"] = "Save."
 
     def clear_data(self):
         """Clears the table"""
@@ -223,7 +289,7 @@ Podcast: {3}\
             "Theme": newtheme
             }
 
-        # Make sure if every entry is filled
+        # Make sure that every entry is filled.
         if not all(newentry.values()):
             tkinter.messagebox.showinfo("Error", "Fill all fields.")
         else:

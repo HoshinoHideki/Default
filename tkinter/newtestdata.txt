@@ -1861,7 +1861,7 @@ Title: -Logical Insanity
 Date: 1945-1991
 Podcast: Hardcore History
 Theme: Холодная война
-Title: '-Meandering Through The Cold War '
+Title: '-Meandering Through The Cold War'
 ---
 Date: 1945+
 Podcast: Richard Bulliet - History of the World to 1500 CE
@@ -1897,3 +1897,13 @@ Date: 2001
 Podcast: History of the world in 100 objec
 Theme: Мозамбик
 Title: -Throne of Weapons
+---
+Date: '-380'
+Podcast: History of Philosophy Without Any Gaps
+Theme: Платон
+Title: Virtue Meets Its Match
+---
+Date: '-301'
+Podcast: The Almost Forgotten
+Theme: Диадохи
+Title: Partitions and Alliances
