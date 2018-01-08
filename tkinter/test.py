@@ -144,8 +144,8 @@ class CreateRootWindow:
     # This is an entry editing widget
     def edit_entry(self):
         ItemString = self.tree.item(self.tree.selection())
-        EditWindow = tkinter.Toplevel()  # creates new window
-        EditWindow.title("Editing an entry...")
+        self.EditWindow = tkinter.Toplevel()  # creates new window
+        self.EditWindow.title("Editing an entry...")
         
         # This fetches the item data
         #ItemString = self.tree.item(self.tree.selection())
@@ -153,59 +153,61 @@ class CreateRootWindow:
         # This creates labels and entries.
         
         # Date
-        EditEntryDateLabel = tkinter.ttk.Label(EditWindow, text="Date:")
-        EditEntryDateLabel.grid(row=0, column=0)
+        self.EditEntryDateLabel = tkinter.ttk.Label(self.EditWindow, text="Date:")
+        self.EditEntryDateLabel.grid(row=0, column=0)
         
-        EditEntryDateEntry = tkinter.ttk.Entry(EditWindow)
-        EditEntryDateEntry.insert(0, ItemString["text"])
-        EditEntryDateEntry.grid(row=0, column=1)        
+        self.EditEntryDateEntry = tkinter.ttk.Entry(self.EditWindow)
+        self.EditEntryDateEntry.insert(0, ItemString["text"])
+        self.EditEntryDateEntry.grid(row=0, column=1)        
         
         # Title
-        EditEntryTitleLabel = tkinter.ttk.Label(EditWindow, text="Title:")
-        EditEntryTitleLabel.grid(row=1, column=0)
+        self.EditEntryTitleLabel = tkinter.ttk.Label(self.EditWindow, text="Title:")
+        self.EditEntryTitleLabel.grid(row=1, column=0)
  
-        EditEntryTitleEntry = tkinter.ttk.Entry(EditWindow)
-        EditEntryTitleEntry.insert(0, ItemString["values"][0])
-        EditEntryTitleEntry.grid(row=1, column=1)  
+        self.EditEntryTitleEntry = tkinter.ttk.Entry(self.EditWindow)
+        self.EditEntryTitleEntry.insert(0, ItemString["values"][0])
+        self.EditEntryTitleEntry.grid(row=1, column=1)  
  
         # Theme
-        EditEntryThemeLabel = tkinter.ttk.Label(EditWindow, text="Theme:")
-        EditEntryThemeLabel.grid(row=2, column=0)        
+        self.EditEntryThemeLabel = tkinter.ttk.Label(self.EditWindow, text="Theme:")
+        self.EditEntryThemeLabel.grid(row=2, column=0)        
 
-        EditEntryThemeEntry = tkinter.ttk.Entry(EditWindow)
-        EditEntryThemeEntry.insert(0, ItemString["values"][1])
-        EditEntryThemeEntry.grid(row=2, column=1)
+        self.EditEntryThemeEntry = tkinter.ttk.Entry(self.EditWindow)
+        self.EditEntryThemeEntry.insert(0, ItemString["values"][1])
+        self.EditEntryThemeEntry.grid(row=2, column=1)
         
         # Podcast
-        EditEntryPodcastLabel = tkinter.ttk.Label(EditWindow, text="Podcast:")
-        EditEntryPodcastLabel.grid(row=3, column=0)
+        self.EditEntryPodcastLabel = tkinter.ttk.Label(self.EditWindow, text="Podcast:")
+        self.EditEntryPodcastLabel.grid(row=3, column=0)
         
-        EditEntryPodcastEntry = tkinter.ttk.Entry(EditWindow)
-        EditEntryPodcastEntry.insert(0, ItemString["values"][2])
-        EditEntryPodcastEntry.grid(row=3, column=1)
+        self.EditEntryPodcastEntry = tkinter.ttk.Entry(self.EditWindow)
+        self.EditEntryPodcastEntry.insert(0, ItemString["values"][2])
+        self.EditEntryPodcastEntry.grid(row=3, column=1)
         
         # Close Button
-        EditEntryCloseButton = tkinter.ttk.Button(
-            EditWindow,
+        self.EditEntryCloseButton = tkinter.ttk.Button(
+            self.EditWindow,
             text="Close",
-            command=EditWindow.destroy
+            command=self.EditWindow.destroy
             )
-        EditEntryCloseButton.grid(row=4, column=0)
+        self.EditEntryCloseButton.grid(row=4, column=0)
         
         # Edit Button
-        EditEntryEditButton = tkinter.ttk.Button(
-            EditWindow,
+        self.EditEntryEditButton = tkinter.ttk.Button(
+            self.EditWindow,
             text="Edit",
             command= lambda:self.edit_data()
             )
-        EditEntryEditButton.grid(row=4, column=1)
+        self.EditEntryEditButton.grid(row=4, column=1)
     
-        def edit_data(self):
-            ItemString["text"] = EditEntryDateEntry.get()
-            ItemString["values"][0] = EditEntryTitleEntry.get()
-            ItemString["values"][1] = EditEntryThemeEntry.get()
-            ItemString["values"][2] = EditEntryPodcastEntry.get()
-            EditWindow.destroy()
+    def edit_data(self):
+        ItemString = self.tree.item(self.tree.selection())
+        self.tree.item(self.tree.selection())["text"] = self.EditEntryDateEntry.get()
+        self.tree.item(self.tree.selection())["values"][0] = self.EditEntryTitleEntry.get()
+        self.tree.item(self.tree.selection())["values"][1] = self.EditEntryThemeEntry.get()
+        self.tree.item(self.tree.selection())["values"][2] = self.EditEntryPodcastEntry.get()
+        self.reload_data()
+        self.EditWindow.destroy()
         # message = """\
 # Date: {0}
 # Title: {1}
