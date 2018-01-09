@@ -137,23 +137,23 @@ class CreateRootWindow:
 
         self.show_data()
     
-    # This deletes entry from the list
     def delete_entry(self):
+        """Deletes the selected item"""
         self.tree.delete(self.tree.selection())
 
-    # This is an entry editing widget
     def edit_entry(self):
+        """Creates the editing window with which to edit data."""
         ItemString = self.tree.item(self.tree.selection())
         self.EditWindow = tkinter.Toplevel()  # creates new window
         self.EditWindow.title("Editing an entry...")
         
-        # This fetches the item data
-        #ItemString = self.tree.item(self.tree.selection())
-        
+       
         # This creates labels and entries.
-        
         # Date
-        self.EditEntryDateLabel = tkinter.ttk.Label(self.EditWindow, text="Date:")
+        self.EditEntryDateLabel = tkinter.ttk.Label(
+            self.EditWindow,
+            text="Date:"
+            )
         self.EditEntryDateLabel.grid(row=0, column=0)
         
         self.EditEntryDateEntry = tkinter.ttk.Entry(self.EditWindow)
@@ -161,7 +161,10 @@ class CreateRootWindow:
         self.EditEntryDateEntry.grid(row=0, column=1)        
         
         # Title
-        self.EditEntryTitleLabel = tkinter.ttk.Label(self.EditWindow, text="Title:")
+        self.EditEntryTitleLabel = tkinter.ttk.Label(
+            self.EditWindow,
+            text="Title:"
+            )
         self.EditEntryTitleLabel.grid(row=1, column=0)
  
         self.EditEntryTitleEntry = tkinter.ttk.Entry(self.EditWindow)
@@ -169,7 +172,10 @@ class CreateRootWindow:
         self.EditEntryTitleEntry.grid(row=1, column=1)  
  
         # Theme
-        self.EditEntryThemeLabel = tkinter.ttk.Label(self.EditWindow, text="Theme:")
+        self.EditEntryThemeLabel = tkinter.ttk.Label(
+            self.EditWindow,
+            text="Theme:"
+            )
         self.EditEntryThemeLabel.grid(row=2, column=0)        
 
         self.EditEntryThemeEntry = tkinter.ttk.Entry(self.EditWindow)
@@ -177,7 +183,10 @@ class CreateRootWindow:
         self.EditEntryThemeEntry.grid(row=2, column=1)
         
         # Podcast
-        self.EditEntryPodcastLabel = tkinter.ttk.Label(self.EditWindow, text="Podcast:")
+        self.EditEntryPodcastLabel = tkinter.ttk.Label(
+            self.EditWindow,
+            text="Podcast:"
+            )
         self.EditEntryPodcastLabel.grid(row=3, column=0)
         
         self.EditEntryPodcastEntry = tkinter.ttk.Entry(self.EditWindow)
@@ -201,24 +210,22 @@ class CreateRootWindow:
         self.EditEntryEditButton.grid(row=4, column=1)
     
     def edit_data(self):
-        ItemString = self.tree.item(self.tree.selection())
-        self.tree.item(self.tree.selection())["text"] = self.EditEntryDateEntry.get()
-        self.tree.item(self.tree.selection())["values"][0] = self.EditEntryTitleEntry.get()
-        self.tree.item(self.tree.selection())["values"][1] = self.EditEntryThemeEntry.get()
-        self.tree.item(self.tree.selection())["values"][2] = self.EditEntryPodcastEntry.get()
+        """Writes the edited data into memory and reloads the page."""
+        self.tree.item(
+            self.tree.selection(),
+            text=self.EditEntryDateEntry.get()
+            )
+        self.tree.item(
+                self.tree.selection(),
+                values=(
+                    self.EditEntryTitleEntry.get(),
+                    self.EditEntryThemeEntry.get(),
+                    self.EditEntryPodcastEntry.get()
+                    )
+                )
+        self.save_data()
         self.reload_data()
         self.EditWindow.destroy()
-        # message = """\
-# Date: {0}
-# Title: {1}
-# Theme: {2} 
-# Podcast: {3}\
-# """.format(
-    # string["text"],
-    # string["values"][0],
-    # string["values"][1],
-    # string["values"][2]
-    # )
 
     def show_data(self):
         """Loads the data into the window."""
@@ -242,7 +249,6 @@ class CreateRootWindow:
 
     def save_data(self):
         """Saves the data into the file."""
-        
         # Creating a list which we are gonna save to file.
         newdata = []
         for item in self.tree.get_children():
