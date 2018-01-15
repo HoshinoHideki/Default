@@ -11,7 +11,7 @@ Title: +Off To Punt We Go
 Date: -2334
 Podcast: Ancient Civilizations
 Theme: Саргон Великий
-Title: '+“Wherever I Went, Let Him Go!” '
+Title: +“Wherever I Went, Let Him Go!”
 ---
 Date: -2200
 Podcast: Richard Bulliet - History of the World to 1500 C
@@ -43,7 +43,7 @@ Podcast: Egyptian History
 Theme: Ментухотеп III
 Title: +Smooth Sailing on the Red Sea
 ---
-Date: -2000:-500
+Date: -2000
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: +The Mediterranean and the Middle East
@@ -273,12 +273,12 @@ Podcast: The History of China
 Theme: Восточное Чжоу
 Title: +The Shattered Empire
 ---
-Date: до -753
+Date: -754
 Podcast: History of Rome
 Theme: 'Эней и Ромул '
 Title: '+In the Beginning '
 ---
-Date: -753:-716
+Date: -753
 Podcast: History of Rome
 Theme: Ромул
 Title: +Youthful Indiscretions
@@ -318,7 +318,7 @@ Podcast: Ancient Civilizations
 Theme: Дур-Шаррукин
 Title: +Dwelling of the Lions
 ---
-Date: -716:-509
+Date: -716
 Podcast: History of Rome
 Theme: Римское Царство
 Title: +The Seven Kings of Rome
@@ -483,7 +483,7 @@ Podcast: Ancient Civilizations
 Theme: Набонид
 Title: +The Last Kings of Babylon
 ---
-Date: '-530'
+Date: -530
 Podcast: Greece
 Theme: Камбиз
 Title: -Cambyses
@@ -568,7 +568,7 @@ Podcast: History of Rome
 Theme: Должность народного Трибуна
 Title: +Trials and Tribunlations
 ---
-Date: -499:-449
+Date: -499
 Podcast: Hardcore History
 Theme: греко-персидские войны
 Title: '+Shield of the West '
@@ -638,7 +638,7 @@ Podcast: History of Rome
 Theme: Цинциннат
 Title: +The Roman Washington
 ---
-Date: -451+
+Date: -451
 Podcast: History of Rome
 Theme: Римское Законодательство
 Title: +Decades of Gloom
@@ -648,7 +648,7 @@ Podcast: History of the world in 100 objects
 Theme: Древнегреческое искусство
 Title: +Basse Yutz Flagons
 ---
-Date: -447-432
+Date: -447
 Podcast: History of the world in 100 objects
 Theme: Древнегреческая культура
 Title: '+Parthenon Sculpture: Centaur and Lapith'
@@ -658,7 +658,7 @@ Podcast: Myths and History of Greece and Rome
 Theme: Пелопоннесская Война
 Title: +The Enemy at Home
 ---
-Date: '-431'
+Date: -431
 Podcast: Podcast History
 Theme: Пелопонесская Война
 Title: +The Peloponesian War
@@ -673,7 +673,7 @@ Podcast: History of Greece
 Theme: Софокл
 Title: -Sophocles
 ---
-Date: '-418'
+Date: -418
 Podcast: Myths and History of Ancient Greece
 Theme: Алкивиад
 Title: The Talker and the Sailor
@@ -688,7 +688,7 @@ Podcast: The Almost Forgotten
 Theme: Марк Фурий Камилл и война с галлами
 Title: -Marcus Furius Camillus
 ---
-Date: '-400'
+Date: -400
 Podcast: Podcast History
 Theme: Сократ
 Title: -The death of Socrates
@@ -713,17 +713,17 @@ Podcast: History of Rome
 Theme: Плебеи и консулат
 Title: -The Morning After
 ---
-Date: -356:-326
+Date: -356
 Podcast: Hardcore History
 Theme: Александр Македонский
 Title: '+Alexander Vs Hitler '
 ---
-Date: -343:-341
+Date: -343
 Podcast: History of Rome
 Theme: Первая самнитская война
 Title: -First Samnite War
 ---
-Date: -340:-338
+Date: -340
 Podcast: History of Rome
 Theme: Война с Латинской Лигой
 Title: -The Latin War
@@ -743,7 +743,7 @@ Podcast: Iranian History
 Theme: Hellenistic Iran
 Title: -Lecture 6
 ---
-Date: '-322'
+Date: -322
 Podcast: The Almost Forgotten
 Theme: Чандрагупта Маурья
 Title: Chandragupta Maurya
@@ -753,7 +753,7 @@ Podcast: History of Rome
 Theme: Вторая война с Самнитами
 Title: -The Second Samnite War
 ---
-Date: -321:-301
+Date: -321
 Podcast: Hardcore History
 Theme: Войны Диадохов
 Title: +The Macedonian Soap Opera
@@ -768,7 +768,7 @@ Podcast: History of the world in 100 objects
 Theme: Инки
 Title: -Paracas Textile
 ---
-Date: -298-290
+Date: -298
 Podcast: History of Rome
 Theme: Третья война с Самнитами
 Title: -The Third Samnite War
@@ -783,7 +783,7 @@ Podcast: Indian Philosophy
 Theme: Ашока
 Title: Carry a Big Stick
 ---
-Date: -264:-146
+Date: -264
 Podcast: Hardcore History
 Theme: Пунические Войны
 Title: +Punic Nightmares
@@ -848,7 +848,7 @@ Podcast: The History of China
 Theme: Вэнь и Цзин
 Title: -The Rule Of Wen And Jing
 ---
-Date: -163:-44
+Date: -163
 Podcast: Hardcore History
 Theme: Закат римской республики
 Title: '+Death Throes of the Republic '
@@ -858,7 +858,7 @@ Podcast: The History of China
 Theme: У Хань
 Title: -Go West, Young Han!
 ---
-Date: -135:-71
+Date: -135
 Podcast: History on Fire 0
 Theme: Сервильные Войны
 Title: -The Slave Wars
@@ -873,7 +873,7 @@ Podcast: The History of China
 Theme: После войны Хань-Сюнну
 Title: -Every Direction But The Sea
 ---
-Date: '-117'
+Date: -117
 Podcast: The Almost Forgotten
 Theme: Митридат
 Title: Mithridates the Great
@@ -888,7 +888,7 @@ Podcast: Ancient Civilizations
 Theme: Третья Митридатова Война
 Title: -Eurus
 ---
-Date: -58:-50
+Date: -58
 Podcast: Hardcore History
 Theme: Галльская война
 Title: +Romancing The Tribes
@@ -923,7 +923,7 @@ Podcast: Ancient Civilizations
 Theme: Юба II
 Title: -Limitem Mundi
 ---
-Date: -27:-25
+Date: -27
 Podcast: History of the world in 100 objects
 Theme: Октавиан Август
 Title: -Head of Augustus
@@ -968,7 +968,7 @@ Podcast: Ancient Civilizations
 Theme: Такфаринас
 Title: -Insurgo
 ---
-Date: 23?
+Date: '23'
 Podcast: Ancient Civilizations
 Theme: Сеян
 Title: -Caedis
@@ -988,7 +988,7 @@ Podcast: Ancient Civilizations
 Theme: Калигула
 Title: -Antonii
 ---
-Date: 52?
+Date: 52
 Podcast: Ancient Civilizations
 Theme: Друзилла Мавританская
 Title: -Zealot
@@ -998,7 +998,7 @@ Podcast: Ancient Civilizations
 Theme: Maritime History
 Title: -Periplus of the Erythraean Sea
 ---
-Date: 52?
+Date: 52
 Podcast: Ancient Civilizations
 Theme: Друзилла Мавританская
 Title: -The Just
@@ -1118,7 +1118,7 @@ Podcast: Ancient Civilizations
 Theme: Римо-Парфянская Война Севера
 Title: -Perish in Blood
 ---
-Date: 200-1500
+Date: 200
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Доколумбова Америка
 Title: -Peoples and Civilization of the Americas
@@ -1158,17 +1158,17 @@ Podcast: The History of China
 Theme: Цао Вэй
 Title: -The King In The North!
 ---
-Date: 220?
+Date: 220
 Podcast: The History of China
 Theme: Сыма
 Title: -Ode Of The Hidden Dragon
 ---
-Date: 220?
+Date: 220
 Podcast: The History of China
 Theme: Чжугэ Лян
 Title: -The Southern Strategy
 ---
-Date: 220?
+Date: 220
 Podcast: The History of China
 Theme: Царство У
 Title: -House Of The Rising Sun
@@ -1278,7 +1278,7 @@ Podcast: The History of China
 Theme: Ши Ху
 Title: -The Year Of Five Emperors
 ---
-Date: 400-1200
+Date: 400
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Средневековая Азия
 Title: -Inner and East Asia
@@ -1293,7 +1293,7 @@ Podcast: Flash Point History
 Theme: Вождь Гуннов Аттила
 Title: Attila the Hun
 ---
-Date: 495-800
+Date: 495
 Podcast: Hardcore History
 Theme: Веcтготы и Франки
 Title: +Thor’s Angels
@@ -1328,12 +1328,12 @@ Podcast: History of the world in 100 objects
 Theme: Майя
 Title: -Maya Relief of Royal Blood-Letting
 ---
-Date: 600-1200
+Date: 600
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Арабский Халифат
 Title: '- The Rise of Islam'
 ---
-Date: 600-1200
+Date: 600
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Каролинги и СРИ
 Title: -Christian Europe Emerges
@@ -1423,7 +1423,7 @@ Podcast: History of the world in 100 objects
 Theme: Африка
 Title: -Ife Head
 ---
-Date: 1147-1149
+Date: 1147
 Podcast: History on fir
 Theme: Второй Крестовый Поход
 Title: -Onboard with the Vikings and on a crusade
@@ -1448,22 +1448,22 @@ Podcast: History of the world in 100 objects
 Theme: Индия
 Title: -Shiva and Parvati Sculpture
 ---
-Date: 1200-1500
+Date: 1200
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Монголы
 Title: -Mongol Eurasia and Its Aftermath
 ---
-Date: 1200-1500
+Date: 1200
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Доколониальная Африка
 Title: -Tropical Africa and Asia
 ---
-Date: 1200-1500
+Date: 1200
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Католическая Европа
 Title: -The Latin West
 ---
-Date: 1204+
+Date: 1204
 Podcast: Hardcore History
 Theme: Монгольские завоевания, 12 век
 Title: +Wrath of the Khans
@@ -1473,7 +1473,7 @@ Podcast: History of the world in 100 objects
 Theme: 'Навигация '
 Title: -Hebrew Astrolabe
 ---
-Date: 1346-1353
+Date: 1346
 Podcast: Hardcore History
 Theme: Чума
 Title: +Bubonic Nukes
@@ -1538,7 +1538,7 @@ Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Просвещение
 Title: -Transformations in Europe, 1500-1750
 ---
-Date: 1500-1750
+Date: 1500
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Просвещение в Азии
 Title: -Southwest Asia and the Indian Ocean
@@ -1548,22 +1548,22 @@ Podcast: The Almost Forgotten
 Theme: Османский Флот
 Title: -Khayreddin Barbarossa
 ---
-Date: 1530-1770
+Date: 1530
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Географические Открытия
 Title: '-The Americas, the Atlantic, and Africa '
 ---
-Date: 1500+
+Date: 1500
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -Early Modern Islamic Governance
 ---
-Date: 1500+
+Date: 1500
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -Korea, Japan, and China in the 16 Century
 ---
-Date: 1500-1800
+Date: 1500
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -Northern Eurasia
@@ -1573,7 +1573,7 @@ Podcast: History of the world in 100 objects
 Theme: Германия
 Title: -Durer's Rhinoceros
 ---
-Date: 1519-1522
+Date: 1519
 Podcast: Hardcore History
 Theme: Путешествия Магеллана
 Title: '+Globalization Unto Death '
@@ -1583,7 +1583,7 @@ Podcast: History of the world in 100 objects
 Theme: Османская Империя
 Title: -Tughra of Suleiman the Magnificent
 ---
-Date: 1534-1536
+Date: 1534
 Podcast: Hardcore History
 Theme: Мюнстерское восстание
 Title: +Prophets of Doom
@@ -1593,7 +1593,7 @@ Podcast: History of the world in 100 objects
 Theme: Ацтеки
 Title: -Mexican codex map
 ---
-Date: 1571-1610
+Date: 1571
 Podcast: History on Fire 1
 Theme: 'Караваджо '
 Title: -Caravaggio
@@ -1638,7 +1638,7 @@ Podcast: History of the world in 100 objects
 Theme: Иран
 Title: -The Shi'a religious parade standard
 ---
-Date: '1674'
+Date: 1674
 Podcast: The Almost Forgotten
 Theme: Ян Собеский
 Title: John III Sobieski
@@ -1653,12 +1653,12 @@ Podcast: History of the world in 100 objects
 Theme: Гавайи
 Title: -Hawaiian feather helmet
 ---
-Date: 1750-1850
+Date: 1750
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Революции
 Title: '-Revolutionary Changes in the Atlantic '
 ---
-Date: 1760-1851
+Date: 1760
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -The Early Industrial Revolution
@@ -1678,12 +1678,12 @@ Podcast: History of the world in 100 objects
 Theme: Американские Индейцы
 Title: -North American buckskin map
 ---
-Date: 1775-1783
+Date: 1775
 Podcast: Revolution
 Theme: Американская Революция
 Title: -Thirteen Colonies
 ---
-Date: 1789-1799
+Date: 1789
 Podcast: Revolution
 Theme: Французская Революция
 Title: -The Three Estates
@@ -1778,7 +1778,7 @@ Podcast: History on Fire 0
 Theme: Индийские Войны
 Title: -Crazy Horse
 ---
-Date: 1876-1877
+Date: 1876
 Podcast: History on Fire 1
 Theme: Война Сиу
 Title: -The War of the Black Hills
@@ -1808,7 +1808,7 @@ Podcast: Hardcore History
 Theme: После Первой Мировой
 Title: '+Scars of the Great War '
 ---
-Date: 1919-1939
+Date: 1919
 Podcast: Hardcore History
 Theme: Лига Наций
 Title: '+The Organization of Peace '
@@ -1818,37 +1818,37 @@ Podcast: History of the world in 100 objects
 Theme: Граданская Война в России
 Title: -Russian revolutionary plate
 ---
-Date: 1929-1939
+Date: 1929
 Podcast: Hardcore History
 Theme: Великая Депрессия
 Title: +Desperate Times
 ---
-Date: 1945+
+Date: 1945
 Podcast: Hardcore History
 Theme: Красная угроза
 Title: +Radical Thoughts
 ---
-Date: 1890-1965
+Date: 1890
 Podcast: Hardcore History
 Theme: Уинстон черчилль
 Title: +Thoughts on Churchill
 ---
-Date: 1919-1945
+Date: 1919
 Podcast: Hardcore History
 Theme: Гитлер
 Title: +Nazi Tidbits
 ---
-Date: 1941-1945
+Date: 1941
 Podcast: Hardcore History
 Theme: Вторая Мировая
 Title: '-Ghosts of the Ostfront '
 ---
-Date: 1941-1945
+Date: 1941
 Podcast: History Extr
 Theme: Ключевые моменты Второй Мировой
 Title: -Pivotal points of WWII
 ---
-Date: 1941-1945
+Date: 1941
 Podcast: History Extr
 Theme: Вторая Мировая
 Title: -WWII memories from veterans
@@ -1858,27 +1858,27 @@ Podcast: Hardcore History
 Theme: Атомные бомбы
 Title: -Logical Insanity
 ---
-Date: 1945-1991
+Date: 1945
 Podcast: Hardcore History
 Theme: Холодная война
 Title: -Meandering Through The Cold War
 ---
-Date: 1945+
+Date: 1945
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -Decolonization
 ---
-Date: 1947+
+Date: 1947
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Холодная Война
 Title: -America and the Cold War
 ---
-Date: 1947+
+Date: 1947
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -Human/Animal Relations
 ---
-Date: 1947+
+Date: 1947
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
 Title: -Concluding Reflections
@@ -1898,12 +1898,12 @@ Podcast: History of the world in 100 objec
 Theme: Мозамбик
 Title: -Throne of Weapons
 ---
-Date: '-380'
+Date: -380
 Podcast: History of Philosophy Without Any Gaps
 Theme: Платон
 Title: Virtue Meets Its Match
 ---
-Date: '-301'
+Date: -301
 Podcast: The Almost Forgotten
 Theme: Диадохи
 Title: -Partitions and Alliances

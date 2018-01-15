@@ -3,12 +3,11 @@ import tkinter.ttk
 import tkinter.messagebox
 import yaml  # database editing
 import time # pauses
+import operator
 
 
 class CreateRootWindow:
-    
     """Window Class."""
-
     def __init__(self, window):
         self.window = window
         
@@ -128,7 +127,29 @@ class CreateRootWindow:
             label="Edit",
             command=lambda: self.edit_entry()
             )
-
+        
+        #testing the bindings
+        def testcallback(event):
+            if self.tree.identify("region", event.x, event.y) == "heading" and \
+            self.tree.identify("column", event.x, event.y) == "#0":
+                templist = []
+                for item in self.tree.get_children():
+                    templist.append(self.tree.item(item))
+                self.clear_data()
+                for item in sorted(templist, key = lambda item: int(item["text"])):
+                    self.tree.insert(
+                        "",
+                        "end",
+                        text=item["text"],
+                        values=(
+                            item["values"][0],
+                            item["values"][1],
+                            item["values"][2]
+                            )
+                        )
+        self.tree.bind("<Button-1>", testcallback)
+       
+        
         # This makes sure widgets stretch to the window
         window.grid_rowconfigure(0, weight=1)
         window.grid_columnconfigure(0, weight=1)
