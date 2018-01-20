@@ -563,11 +563,6 @@ Podcast: Ancient Civilizations
 Theme: Итоги
 Title: +And Then What Happened?
 ---
-Date: -494
-Podcast: History of Rome
-Theme: Должность народного Трибуна
-Title: +Trials and Tribunlations
----
 Date: -499
 Podcast: Hardcore History
 Theme: греко-персидские войны
@@ -582,6 +577,11 @@ Date: -499
 Podcast: Maritime History
 Theme: Ионийское Восстание
 Title: +A Persian Navy, an Ionian Revolt
+---
+Date: -494
+Podcast: History of Rome
+Theme: Должность народного Трибуна
+Title: +Trials and Tribunlations
 ---
 Date: -492
 Podcast: Indian History
@@ -628,15 +628,15 @@ Podcast: History of Greece
 Theme: Пелопоннесская Война
 Title: +The Undeclared War
 ---
-Date: -451
-Podcast: History of Rome
-Theme: Римское Законодательство
-Title: +The Twelve Tables
----
 Date: -458
 Podcast: History of Rome
 Theme: Цинциннат
 Title: +The Roman Washington
+---
+Date: -451
+Podcast: History of Rome
+Theme: Римское Законодательство
+Title: +The Twelve Tables
 ---
 Date: -451
 Podcast: History of Rome
@@ -708,6 +708,11 @@ Podcast: The History of China
 Theme: Цинь
 Title: -Qin's Reformation And Ascension
 ---
+Date: -380
+Podcast: History of Philosophy Without Any Gaps
+Theme: Платон
+Title: Virtue Meets Its Match
+---
 Date: -367
 Podcast: History of Rome
 Theme: Плебеи и консулат
@@ -762,6 +767,11 @@ Date: -305
 Podcast: History of the world in 100 objects
 Theme: Экономика македонской империи
 Title: -Head of Alexander
+---
+Date: -301
+Podcast: The Almost Forgotten
+Theme: Диадохи
+Title: -Partitions and Alliances
 ---
 Date: -300
 Podcast: History of the world in 100 objects
@@ -988,15 +998,15 @@ Podcast: Ancient Civilizations
 Theme: Калигула
 Title: -Antonii
 ---
-Date: 52
-Podcast: Ancient Civilizations
-Theme: Друзилла Мавританская
-Title: -Zealot
----
 Date: 50
 Podcast: Ancient Civilizations
 Theme: Maritime History
 Title: -Periplus of the Erythraean Sea
+---
+Date: 52
+Podcast: Ancient Civilizations
+Theme: Друзилла Мавританская
+Title: -Zealot
 ---
 Date: 52
 Podcast: Ancient Civilizations
@@ -1548,11 +1558,6 @@ Podcast: The Almost Forgotten
 Theme: Османский Флот
 Title: -Khayreddin Barbarossa
 ---
-Date: 1530
-Podcast: Richard Bulliet - History of the World to 1500 CE
-Theme: Географические Открытия
-Title: '-The Americas, the Atlantic, and Africa '
----
 Date: 1500
 Podcast: Richard Bulliet - History of the World to 1500 CE
 Theme: Обзор
@@ -1582,6 +1587,11 @@ Date: 1520
 Podcast: History of the world in 100 objects
 Theme: Османская Империя
 Title: -Tughra of Suleiman the Magnificent
+---
+Date: 1530
+Podcast: Richard Bulliet - History of the World to 1500 CE
+Theme: Географические Открытия
+Title: '-The Americas, the Atlantic, and Africa '
 ---
 Date: 1534
 Podcast: Hardcore History
@@ -1748,11 +1758,6 @@ Podcast: Revolution
 Theme: латиноамериканские революции
 Title: -Simon Bolivar
 ---
-Date: 1886
-Podcast: Hardcore History
-Theme: Война с Апачи
-Title: '+Apache Tears '
----
 Date: 1814
 Podcast: Revolution
 Theme: реставрация Бурбонов
@@ -1782,6 +1787,16 @@ Date: 1876
 Podcast: History on Fire 1
 Theme: Война Сиу
 Title: -The War of the Black Hills
+---
+Date: 1886
+Podcast: Hardcore History
+Theme: Война с Апачи
+Title: '+Apache Tears '
+---
+Date: 1890
+Podcast: Hardcore History
+Theme: Уинстон черчилль
+Title: +Thoughts on Churchill
 ---
 Date: 1898
 Podcast: Hardcore History
@@ -1813,6 +1828,11 @@ Podcast: Hardcore History
 Theme: Лига Наций
 Title: '+The Organization of Peace '
 ---
+Date: 1919
+Podcast: Hardcore History
+Theme: Гитлер
+Title: +Nazi Tidbits
+---
 Date: 1921
 Podcast: History of the world in 100 objects
 Theme: Граданская Война в России
@@ -1822,21 +1842,6 @@ Date: 1929
 Podcast: Hardcore History
 Theme: Великая Депрессия
 Title: +Desperate Times
----
-Date: 1945
-Podcast: Hardcore History
-Theme: Красная угроза
-Title: +Radical Thoughts
----
-Date: 1890
-Podcast: Hardcore History
-Theme: Уинстон черчилль
-Title: +Thoughts on Churchill
----
-Date: 1919
-Podcast: Hardcore History
-Theme: Гитлер
-Title: +Nazi Tidbits
 ---
 Date: 1941
 Podcast: Hardcore History
@@ -1852,6 +1857,11 @@ Date: 1941
 Podcast: History Extr
 Theme: Вторая Мировая
 Title: -WWII memories from veterans
+---
+Date: 1945
+Podcast: Hardcore History
+Theme: Красная угроза
+Title: +Radical Thoughts
 ---
 Date: 1945
 Podcast: Hardcore History
@@ -1897,13 +1907,3 @@ Date: 2001
 Podcast: History of the world in 100 objec
 Theme: Мозамбик
 Title: -Throne of Weapons
----
-Date: -380
-Podcast: History of Philosophy Without Any Gaps
-Theme: Платон
-Title: Virtue Meets Its Match
----
-Date: -301
-Podcast: The Almost Forgotten
-Theme: Диадохи
-Title: -Partitions and Alliances
