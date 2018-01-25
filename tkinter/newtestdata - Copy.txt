@@ -1,14 +1,14 @@
 Date: '-2600'
 Podcast: Ancient Civilizations
 Theme: Потоп
-Title: The Flood
+Title: +The Flood
 ---
 Date: -2400
 Podcast: Egyptian History
 Theme: Djedkare
 Title: +Off To Punt We Go
 ---
-Date: '-2334'
+Date: -2334
 Podcast: Ancient Civilizations
 Theme: Саргон Великий
 Title: +“Wherever I Went, Let Him Go!”

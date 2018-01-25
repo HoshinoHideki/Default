@@ -16,39 +16,39 @@ class CreateRootWindow:
         # Title.
         window.title("Podcast Tracker")
        
-        # Creating stuff.
-        # Tabs frame.
+        # Creates main frame.
         self.tabs = tkinter.ttk.Notebook(window)
-
-        # Entries tab & text label.
-        self.entries = tkinter.ttk.Frame(window)
-        self.tabs.add(self.entries, text="Entries")
         self.tabs.grid(row=0, column=0, sticky="nsew")
 
-        # New entries tab & text label.
-        self.add = tkinter.ttk.Frame(self.tabs)
-        self.tabs.add(self.add, text="Add")
+        # Creates main entries tab & its text label.
+        self.tablist = (
+            ("entries", "Entries"),
+            ("add", "Add")
+        )
+        for (tab_name, tab_label) in self.tablist:
+            setattr(self, tab_name, tkinter.ttk.Frame(self.tabs))
+            self.tabs.add(getattr(self, tab_name), text=tab_label)
 
-        # The table.
+        # Creates the data table.
         self.tree = tkinter.ttk.Treeview(
             self.entries,
             columns=(
                 "Title",
                 "Theme",
                 "Podcast"
-                )
             )
+        )
         self.tree.bind("<Button-1>", self.left_mouse_button)
         
         # Setting the names for the column headings.
-        headings = {
-            "#0":"Date",
-            "#1":"Title",
-            "#2":"Title",
-            "#3":"Podcast"
-            }
-        for x,y in headings.items():
-            self.tree.heading(x, text=y)
+        self.treeheadings = (
+            ("#0","Date"),
+            ("#1","Title"),
+            ("#2","Title"),
+            ("#3","Podcast")
+        )
+        for (heading_number, heading_title) in self.treeheadings:
+            self.tree.heading(heading_number, text=heading_title)
         self.tree.grid(row=0, column=0, sticky="nsew")
 
         # The scrollbar.
@@ -56,7 +56,7 @@ class CreateRootWindow:
             self.entries,
             orient="vertical",
             command=self.tree.yview
-            )
+        )
             
         # This feedbacks data to the scrollbar.
         self.tree["yscrollcommand"] = self.scrollbar.set
@@ -66,51 +66,54 @@ class CreateRootWindow:
         self.new_entry_label = tkinter.ttk.Label(
             self.add,
             text="Add New Entry:"
-            )
+        )
         self.new_entry_label.grid(row=0, column=0)
-        
-        def create_button(
-                label_name,
-                label_text,
-                entry_name,
-                row):
+
+        self.addwindow_entries = (
+            ("date_label", "Date:", "date_entry", 1),
+            ("title_label", "Title:", "title_entry", 2),
+            ("podcast_label", "Podcast:", "podcast_entry", 3),
+            ("theme_label", "Theme:", "theme_entry", 4)
+        )
+        for (
+            label_name,
+            label_text,
+            entry_name,
+            entry_row
+        ) in self.addwindow_entries:
             setattr(
                 self,
                 label_name,
                 tkinter.ttk.Label(self.add, text=label_text)
-                )
-            getattr(self, label_name).grid(row=row, column=0)
+            )
+            getattr(self, label_name).grid(row=entry_row, column=0)
             setattr(
                 self,
                 entry_name,
                 tkinter.ttk.Entry(self.add)
-                )
-            getattr(self, entry_name).grid(row=row, column=1)
-
-        buttons = [
-            ["date_label", "Date:", "date_entry", 1],
-            ["title_label", "Title:", "title_entry", 2],
-            ["podcast_label", "Podcast:", "podcast_entry", 3],
-            ["theme_label", "Theme:", "theme_entry", 4]
-            ]
-        
-        for i in buttons:
-            create_button(*i)
-
-        # Adding the Save Button.
-        self.save_button = tkinter.ttk.Button(
-            self.add,
-            text="Save (test)",
-            command=self.save_data)
-        self.save_button.grid(row=5, column=0)
-        
-        # Button for adding an entry.
-        self.add_button = tkinter.ttk.Button(
-            self.add,
-            text="Add (test)",
-            command=lambda: self.add_data()
             )
-        self.add_button.grid(row=5, column=1)
+            getattr(self, entry_name).grid(row=entry_row, column=1)
+           
+        self.add_buttons = (
+            ("save_button", "Save", self.save_data, 0),
+            ("add_button", "Add", self.add_data, 1)
+        )
+        for (
+            button_name,
+            button_text,
+            button_command,
+            button_column
+        )in self.add_buttons:
+            setattr(
+                self,
+                button_name,
+                tkinter.ttk.Button(
+                    self.add,
+                    text=button_text,
+                    command=lambda:button_command()
+                )
+            )
+            getattr(self, button_name).grid(row=5, column=button_column)
 
         # Right-click Menu
         self.menu = tkinter.Menu(window)
@@ -119,13 +122,14 @@ class CreateRootWindow:
         window.bind('<3>', lambda e: self.menu.post(e.x_root, e.y_root))
 
         # Menu options
-        self.menu.add_command(
-            label="Delete",
-            command=lambda: self.delete_entry()
-            )
-        self.menu.add_command(
-            label="Edit",
-            command=lambda: self.edit_entry()
+        self.menu_options = (
+            ("Delete", self.delete_entry),
+            ("Edit", self.edit_entry)
+        )
+        for menu_label, menu_command in self.menu_options:
+            getattr(self, "menu").add_command(
+                label=menu_label,
+                command= lambda:menu_command()
             )
         
         # This makes sure widgets stretch to the window
@@ -137,100 +141,105 @@ class CreateRootWindow:
         self.show_data()
 
     def left_mouse_button(self, event):
+        """Binds stuff to lmb"""
         if self.tree.identify("region", event.x, event.y) == "heading" and \
         self.tree.identify("column", event.x, event.y) == "#0":
-            templist = []
-            for item in self.tree.get_children():
-                templist.append(self.tree.item(item))
-            self.clear_data()
-            for item in sorted(
-                templist,
-                key = lambda item: int(item["text"])
-                ):
-                self.tree.insert(
-                    "",
-                    "end",
-                    text=item["text"],
-                    values=(
-                        item["values"][0],
-                        item["values"][1],
-                        item["values"][2]
-                        )
-                    )
-            self.save_data()
-        
+            self.sort_entries()
+
+    def sort_entries(self):    
+        templist = []
+        for item in self.tree.get_children():
+            templist.append(self.tree.item(item))
+        self.clear_data()
+        for item in sorted(
+            templist,
+            key = lambda item: int(item["text"])
+        ):
+            self.tree.insert(
+                "",
+                "end",
+                text=item["text"],
+                values=(
+                    item["values"][0],
+                    item["values"][1],
+                    item["values"][2]
+                )
+            )
+            
     def delete_entry(self):
         """Deletes the selected item"""
         self.tree.delete(self.tree.selection())
 
     def edit_entry(self):
         """Creates the editing window with which to edit data."""
+        
+        #Fetching the data from the tree
         ItemString = self.tree.item(self.tree.selection())
+        ItemText = {}
+        ItemText["Date"] = ItemString["text"]
+        ItemText["Title"] = ItemString["values"][0]
+        ItemText["Theme"] = ItemString["values"][1]
+        ItemText["Podcast"] = ItemString["values"][2]
+        
         self.EditWindow = tkinter.Toplevel()  # creates new window
-        self.EditWindow.title("Editing an entry...")
+        self.EditWindow.title("Editing an entry.")
         
        
-        # This creates labels and entries.
-        # Date
-        self.EditEntryDateLabel = tkinter.ttk.Label(
-            self.EditWindow,
-            text="Date:"
+        # Creating variables from entry names
+        self.EditWindowContent = ("Date", "Title", "Theme", "Podcast")
+        edit_entries = []
+        for item in self.EditWindowContent:
+            edit_entries.append(
+                (   "EditEntry{}Label".format(item),
+                    "{}: ".format(item),
+                    "EditEntry{}Entry".format(item),
+                    ItemText[item],
+                    self.EditWindowContent.index(item)
+                )
             )
-        self.EditEntryDateLabel.grid(row=0, column=0)
-        
-        self.EditEntryDateEntry = tkinter.ttk.Entry(self.EditWindow)
-        self.EditEntryDateEntry.insert(0, ItemString["text"])
-        self.EditEntryDateEntry.grid(row=0, column=1)        
-        
-        # Title
-        self.EditEntryTitleLabel = tkinter.ttk.Label(
-            self.EditWindow,
-            text="Title:"
+        for (
+            EditLabelName,
+            EditLabelText,
+            EditLabelEntry,
+            EditEntryText,
+            EditLabelRow
+        ) in edit_entries:
+            setattr(
+                self,
+                EditLabelName,
+                tkinter.ttk.Label(self.EditWindow, text=EditLabelText)
             )
-        self.EditEntryTitleLabel.grid(row=1, column=0)
- 
-        self.EditEntryTitleEntry = tkinter.ttk.Entry(self.EditWindow)
-        self.EditEntryTitleEntry.insert(0, ItemString["values"][0])
-        self.EditEntryTitleEntry.grid(row=1, column=1)  
- 
-        # Theme
-        self.EditEntryThemeLabel = tkinter.ttk.Label(
-            self.EditWindow,
-            text="Theme:"
+            setattr(
+                self,
+                EditLabelEntry,
+                tkinter.ttk.Entry(self.EditWindow)
             )
-        self.EditEntryThemeLabel.grid(row=2, column=0)        
-
-        self.EditEntryThemeEntry = tkinter.ttk.Entry(self.EditWindow)
-        self.EditEntryThemeEntry.insert(0, ItemString["values"][1])
-        self.EditEntryThemeEntry.grid(row=2, column=1)
-        
-        # Podcast
-        self.EditEntryPodcastLabel = tkinter.ttk.Label(
-            self.EditWindow,
-            text="Podcast:"
+            getattr(self, EditLabelEntry).insert(0, EditEntryText)
+            getattr(self, EditLabelName).grid(row=EditLabelRow, column=0)
+            getattr(self, EditLabelEntry).grid(row=EditLabelRow, column=1)
+            
+        # Buttons
+        EditWindowButtons = (
+            ("EditEntryCloseButton", "Close", self.EditWindow.destroy, 0),
+            ("EditEntryEditButton", "Edit", self.edit_data, 1)
+        )
+        for (
+            ButtonName, 
+            ButtonLabel, 
+            ButtonCommand, 
+            ButtonColumn
+        ) in EditWindowButtons:
+            setattr(
+                self, 
+                ButtonName, 
+                tkinter.ttk.Button(
+                    self.EditWindow,
+                    text=ButtonLabel,
+                    command=ButtonCommand
+                )
             )
-        self.EditEntryPodcastLabel.grid(row=3, column=0)
-        
-        self.EditEntryPodcastEntry = tkinter.ttk.Entry(self.EditWindow)
-        self.EditEntryPodcastEntry.insert(0, ItemString["values"][2])
-        self.EditEntryPodcastEntry.grid(row=3, column=1)
-        
-        # Close Button
-        self.EditEntryCloseButton = tkinter.ttk.Button(
-            self.EditWindow,
-            text="Close",
-            command=self.EditWindow.destroy
-            )
-        self.EditEntryCloseButton.grid(row=4, column=0)
-        
-        # Edit Button
-        self.EditEntryEditButton = tkinter.ttk.Button(
-            self.EditWindow,
-            text="Edit",
-            command= lambda:self.edit_data()
-            )
-        self.EditEntryEditButton.grid(row=4, column=1)
-    
+            getattr(self, ButtonName).grid(row=4, column=ButtonColumn)
+            
     def edit_data(self):
         """Writes the edited data into memory and reloads the page."""
         self.tree.item(
@@ -246,7 +255,6 @@ class CreateRootWindow:
                     )
                 )
         self.save_data()
-        self.reload_data()
         self.EditWindow.destroy()
 
     def show_data(self):
@@ -294,8 +302,6 @@ class CreateRootWindow:
                 )
         self.save_button["text"] = "Saved."
         self.reload_data()
-        self.save_button.after(5000)
-        self.save_button["text"] = "Save."
 
     def clear_data(self):
         """Clears the table"""
@@ -308,15 +314,11 @@ class CreateRootWindow:
 
     def add_data(self):
         """Adds new entry into the list."""
-        newdate = self.date_entry.get()
-        newtitle = self.title_entry.get()
-        newpodcast = self.podcast_entry.get()
-        newtheme = self.theme_entry.get()
         newentry = {
-            "Date": newdate,
-            "Title": newtitle,
-            "Podcast": newpodcast,
-            "Theme": newtheme
+            "Date": self.date_entry.get(),
+            "Title": self.title_entry.get(),
+            "Podcast": self.podcast_entry.get(),
+            "Theme": self.theme_entry.get()
             }
 
         # Make sure that every entry is filled.
