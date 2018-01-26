@@ -2,8 +2,6 @@ import tkinter  # interface
 import tkinter.ttk
 import tkinter.messagebox
 import yaml  # database editing
-import time # pauses
-
 
 class CreateRootWindow:
     """Window Class."""
@@ -11,7 +9,7 @@ class CreateRootWindow:
         self.window = window
         
         # This removes dashed line from the menu.
-        window.option_add('*tearOff', False)
+        window.option_add("*tearOff", False)
         
         # Title.
         window.title("Podcast Tracker")
@@ -49,7 +47,8 @@ class CreateRootWindow:
         )
         for (heading_number, heading_title) in self.treeheadings:
             self.tree.heading(heading_number, text=heading_title)
-        self.tree.grid(row=0, column=0, sticky="nsew")
+        self.tree.column("#0", width=55)
+        self.tree.grid(row=0, column=0, sticky="nsw")
 
         # The scrollbar.
         self.scrollbar = tkinter.ttk.Scrollbar(
@@ -119,7 +118,7 @@ class CreateRootWindow:
         self.menu = tkinter.Menu(window)
 
         # Binding the Menu to the RMB
-        window.bind('<3>', lambda e: self.menu.post(e.x_root, e.y_root))
+        window.bind("<3>", lambda e: self.menu.post(e.x_root, e.y_root))
 
         # Menu options
         self.menu_options = (
@@ -129,7 +128,7 @@ class CreateRootWindow:
         for menu_label, menu_command in self.menu_options:
             getattr(self, "menu").add_command(
                 label=menu_label,
-                command= lambda:menu_command()
+                command= menu_command
             )
         
         # This makes sure widgets stretch to the window
@@ -146,41 +145,70 @@ class CreateRootWindow:
         self.tree.identify("column", event.x, event.y) == "#0":
             self.sort_entries()
 
-    def sort_entries(self):    
-        templist = []
-        for item in self.tree.get_children():
-            templist.append(self.tree.item(item))
-        self.clear_data()
-        for item in sorted(
-            templist,
-            key = lambda item: int(item["text"])
-        ):
+    def add_data(self):
+        """Adds new entry into the list."""
+        newentry = {
+            "Date": self.date_entry.get(),
+            "Title": self.title_entry.get(),
+            "Podcast": self.podcast_entry.get(),
+            "Theme": self.theme_entry.get()
+        }
+
+        # Make sure that every entry is filled.
+        if not all(newentry.values()):
+            tkinter.messagebox.showinfo("Error", "Fill all fields.")
+        else:
             self.tree.insert(
                 "",
                 "end",
-                text=item["text"],
+                text=newentry["Date"],
                 values=(
-                    item["values"][0],
-                    item["values"][1],
-                    item["values"][2]
+                    newentry["Title"],
+                    newentry["Theme"],
+                    newentry["Podcast"]
                 )
             )
-            
+            self.add_button["text"] = "Added."
+        self.sort_entries()            
+ 
+    def clear_data(self):
+        """Clears the table"""
+        self.tree.delete(*self.tree.get_children())
+
     def delete_entry(self):
         """Deletes the selected item"""
         self.tree.delete(self.tree.selection())
 
+    def edit_data(self):
+        """Writes the edited data into memory and reloads the page."""
+        self.tree.item(
+            self.tree.selection(),
+            text=self.EditEntryDateEntry.get()
+        )
+        self.tree.item(
+                self.tree.selection(),
+                values=(
+                    self.EditEntryTitleEntry.get(),
+                    self.EditEntryThemeEntry.get(),
+                    self.EditEntryPodcastEntry.get()
+                )
+        )
+        self.save_data()
+        self.EditWindow.destroy()
+
     def edit_entry(self):
         """Creates the editing window with which to edit data."""
         
-        #Fetching the data from the tree
+        # Fetching the data from the tree
         ItemString = self.tree.item(self.tree.selection())
-        ItemText = {}
-        ItemText["Date"] = ItemString["text"]
-        ItemText["Title"] = ItemString["values"][0]
-        ItemText["Theme"] = ItemString["values"][1]
-        ItemText["Podcast"] = ItemString["values"][2]
-        
+        ItemText = {
+            "Date":     ItemString["text"],
+            "Title":    ItemString["values"][0],
+            "Theme":    ItemString["values"][1],
+            "Podcast":  ItemString["values"][2],
+        }
+
+        # Creating the window
         self.EditWindow = tkinter.Toplevel()  # creates new window
         self.EditWindow.title("Editing an entry.")
         
@@ -190,7 +218,8 @@ class CreateRootWindow:
         edit_entries = []
         for item in self.EditWindowContent:
             edit_entries.append(
-                (   "EditEntry{}Label".format(item),
+                (
+                    "EditEntry{}Label".format(item),
                     "{}: ".format(item),
                     "EditEntry{}Entry".format(item),
                     ItemText[item],
@@ -239,28 +268,11 @@ class CreateRootWindow:
                 )
             )
             getattr(self, ButtonName).grid(row=4, column=ButtonColumn)
-            
-    def edit_data(self):
-        """Writes the edited data into memory and reloads the page."""
-        self.tree.item(
-            self.tree.selection(),
-            text=self.EditEntryDateEntry.get()
-            )
-        self.tree.item(
-                self.tree.selection(),
-                values=(
-                    self.EditEntryTitleEntry.get(),
-                    self.EditEntryThemeEntry.get(),
-                    self.EditEntryPodcastEntry.get()
-                    )
-                )
-        self.save_data()
-        self.EditWindow.destroy()
 
     def show_data(self):
         """Loads the data into the window."""
         data = list(yaml.load_all(open(
-            "newtestdata.txt",
+            "data.txt",
             "r",
             encoding="UTF-8"
             )))
@@ -274,68 +286,52 @@ class CreateRootWindow:
                     item["Title"],
                     item["Theme"],
                     item["Podcast"]
-                    )
                 )
+            )            
+
+    def sort_entries(self):    
+        templist = []
+        for item in self.tree.get_children():
+            templist.append(self.tree.item(item))
+        self.clear_data()
+        for item in sorted(
+            templist,
+            key = lambda item: int(item["text"])
+        ):
+            self.tree.insert(
+                "",
+                "end",
+                text=item["text"],
+                values=(
+                    item["values"][0],
+                    item["values"][1],
+                    item["values"][2]
+                )
+            )
 
     def save_data(self):
         """Saves the data into the file."""
         # Creating a list which we are gonna save to file.
         newdata = []
         for item in self.tree.get_children():
-            raw_item = self.tree.item(item)
             entry = {
-                "Date": raw_item["text"],
-                "Title": raw_item["values"][0],
-                "Theme": raw_item["values"][1],
-                "Podcast": raw_item["values"][2]
-                }
+                "Date": self.tree.item(item)["text"],
+                "Title": self.tree.item(item)["values"][0],
+                "Theme": self.tree.item(item)["values"][1],
+                "Podcast": self.tree.item(item)["values"][2]
+            }
             newdata.append(entry)
 
         # Dumping the data into the file.
-        with open("newtestdata.txt", "w", encoding="UTF-8") as outputfile:
+        with open("data.txt", "w", encoding="UTF-8") as outputfile:
             outputfile.write(
                 yaml.dump_all(
                     newdata,
                     allow_unicode=True,
                     default_flow_style=False
-                    )
                 )
+            )
         self.save_button["text"] = "Saved."
-        self.reload_data()
-
-    def clear_data(self):
-        """Clears the table"""
-        self.tree.delete(*self.tree.get_children())
-
-    def reload_data(self):
-        """Reloads the table"""
-        self.clear_data()
-        self.show_data()
-
-    def add_data(self):
-        """Adds new entry into the list."""
-        newentry = {
-            "Date": self.date_entry.get(),
-            "Title": self.title_entry.get(),
-            "Podcast": self.podcast_entry.get(),
-            "Theme": self.theme_entry.get()
-            }
-
-        # Make sure that every entry is filled.
-        if not all(newentry.values()):
-            tkinter.messagebox.showinfo("Error", "Fill all fields.")
-        else:
-            self.tree.insert(
-                "",
-                "end",
-                text=newentry["Date"],
-                values=(
-                    newentry["Title"],
-                    newentry["Theme"],
-                    newentry["Podcast"]
-                    )
-                )
-            self.add_button["text"] = "Added."
 
 root = tkinter.Tk()
 rroot = CreateRootWindow(root)

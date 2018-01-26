@@ -1,7 +1,0 @@
-+create an edit form
-+fill the form
-
--create dud buttons
--make it edit
--make a window pop up under the cursor
--make elements stretch

@@ -1,7 +1,22 @@
+Date: '-3500'
+Podcast: Egyptian History
+Theme: Начало египетской истории
+Title: +Infinite Waters
+---
+Date: '-2690'
+Podcast: Egyptian History
+Theme: Хасехемуи
+Title: +Horus Takes Flight
+---
+Date: '-2686'
+Podcast: Egyptian History
+Theme: Джосер
+Title: +With Apologies to Led Zeppelin
+---
 Date: '-2600'
 Podcast: Ancient Civilizations
 Theme: Потоп
-Title: The Flood
+Title: +The Flood
 ---
 Date: -2400
 Podcast: Egyptian History
@@ -122,6 +137,11 @@ Date: -1495
 Podcast: Egyptian History
 Theme: Хатшепсут
 Title: +The Two Lands Serve Her
+---
+Date: '-1400'
+Podcast: Egyptian History
+Theme: Amunhotep III
+Title: +Neb-maat-Re
 ---
 Date: -1391
 Podcast: Ancient Civilizations
