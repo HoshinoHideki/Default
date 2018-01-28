@@ -109,7 +109,7 @@ class CreateRootWindow:
                 tkinter.ttk.Button(
                     self.add,
                     text=button_text,
-                    command=lambda:button_command()
+                    command=button_command
                 )
             )
             getattr(self, button_name).grid(row=5, column=button_column)
@@ -271,12 +271,15 @@ class CreateRootWindow:
 
     def show_data(self):
         """Loads the data into the window."""
-        data = list(yaml.load_all(open(
-            "data.txt",
-            "r",
-            encoding="UTF-8"
-            )))
-
+        data = list(
+            yaml.load_all(
+                open(
+                    "data.txt",
+                    "r",
+                    encoding="UTF-8"
+                )
+            )
+        )
         for item in data:
             self.tree.insert(
                 "",
