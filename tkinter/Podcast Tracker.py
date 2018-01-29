@@ -23,9 +23,9 @@ class CreateRootWindow:
             ("entries", "Entries"),
             ("add", "Add")
         )
-        for (tab_name, tab_label) in self.tablist:
-            setattr(self, tab_name, tkinter.ttk.Frame(self.tabs))
-            self.tabs.add(getattr(self, tab_name), text=tab_label)
+        for (name, label) in self.tablist:
+            setattr(self, name, tkinter.ttk.Frame(self.tabs))
+            self.tabs.add(getattr(self, name), text=label)
 
         # Creates the data table.
         self.tree = tkinter.ttk.Treeview(
@@ -37,18 +37,18 @@ class CreateRootWindow:
             )
         )
         self.tree.bind("<Button-1>", self.left_mouse_button)
+        self.tree.grid(row=0, column=0, sticky="nswe")
         
         # Setting the names for the column headings.
         self.treeheadings = (
-            ("#0","Date"),
-            ("#1","Title"),
-            ("#2","Title"),
-            ("#3","Podcast")
+            ("#0","Date",    55),
+            ("#1","Title",   300),
+            ("#2","Title",   300),
+            ("#3","Podcast", 300)
         )
-        for (heading_number, heading_title) in self.treeheadings:
-            self.tree.heading(heading_number, text=heading_title)
-        self.tree.column("#0", width=55)
-        self.tree.grid(row=0, column=0, sticky="nsw")
+        for (number, text, width) in self.treeheadings:
+            self.tree.heading(number, text=text)
+            self.tree.column(number, width=width)
 
         # The scrollbar.
         self.scrollbar = tkinter.ttk.Scrollbar(
@@ -318,11 +318,17 @@ class CreateRootWindow:
         newdata = []
         for item in self.tree.get_children():
             entry = {
-                "Date": self.tree.item(item)["text"],
-                "Title": self.tree.item(item)["values"][0],
-                "Theme": self.tree.item(item)["values"][1],
-                "Podcast": self.tree.item(item)["values"][2]
+                "Date":     self.tree.item(item)["text"],
+                "Title":    self.tree.item(item)["values"][0],
+                "Theme":    self.tree.item(item)["values"][1],
+                "Podcast":  self.tree.item(item)["values"][2]
             }
+            # if str(self.tree.item(item)["values"][0]).startswith("-"):
+                # entry["Listened"] = "No"
+            # elif str(self.tree.item(item)["values"][0]).startswith("+"):
+                # entry["Listened"] = "Yes"
+            # else:
+                # entry["Listened"] = "Undefined"
             newdata.append(entry)
 
         # Dumping the data into the file.
