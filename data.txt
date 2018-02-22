@@ -1,9 +1,3 @@
-Date: '-9000'
-Listened: Undefined
-Podcast: test
-Theme: test
-Title: 'Podcast: Richard Bulliet - History of the World to 1500 CEeeeeeeeeeeeeeeeeeeee'
----
 Date: '-3500'
 Listened: 'Yes'
 Podcast: Egyptian History
