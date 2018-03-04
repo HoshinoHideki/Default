@@ -8,7 +8,7 @@ import tkinter.messagebox
 import yaml  # database editing
 
 
-class RootWindow:
+class RootWindow(object):
     """Window Class."""
 
     def __init__(self, window):
@@ -25,20 +25,20 @@ class RootWindow:
         window.grid_columnconfigure(0, weight=1)
 
         # Creates two main frames.
-
         for (frame, row) in (
                 ("top_frame", 0,),
                 ("bottom_frame", 1,),
         ):
-            self.widgets[frame] = tkinter.ttk.Frame(window)
+            self.widgets[frame] = tkinter.Frame(window)
             self.widgets[frame].grid(row=row, sticky="nsew")
 
         # Creates main buttons.
         for (button, text, command, column) in (
                 ("save_button", "Save", self.save_data, 0),
-                ("add_button", "Add", lambda: self.new_window("Add"), 1)
+                ("add_button", "Add", lambda: self.new_window("Add"), 1),
+                ("filter_button", "Filter", self.filter_window, 2),
         ):
-            self.widgets[button] = tkinter.ttk.Button(
+            self.widgets[button] = tkinter.Button(
                 self.widgets["top_frame"],
                 text=text, command=command
             )
@@ -53,6 +53,11 @@ class RootWindow:
                 "Podcast",
             )
         )
+        
+        # Background color tags
+        self.tree.tag_configure("Listened", background="pale green")
+        self.tree.tag_configure("Notlistened", background="indian red")
+        
         self.tree.bind("<Button-1>", self.left_mouse_button)
         self.tree.grid(row=0, column=0, sticky="nswe")
 
@@ -68,7 +73,7 @@ class RootWindow:
             self.tree.column(number, width=width)
 
         # The scrollbar.
-        self.scrollbar = tkinter.ttk.Scrollbar(
+        self.scrollbar = tkinter.Scrollbar(
             self.widgets["bottom_frame"],
             orient="vertical",
             command=self.tree.yview,
@@ -118,12 +123,41 @@ class RootWindow:
     def delete_entry(self):
         """Deletes the selected item"""
         self.tree.delete(self.tree.selection())
-        self.save_data()
+     
+    def filter_data(self):
+        listened = 0
+        if not listened:
+            
+        
+    def filter_window(self):
+        """Creates the filter window and then filters data."""
+        
+        # Creating Editing window
+        self.widgets["filter_window"] = tkinter.Toplevel()
+        self.widgets["filter_window"].geometry(
+            "+{}+{}".format(
+                self.tree.winfo_pointerx(),
+                self.tree.winfo_pointery(),
+            )
+        )
+        checkbutton = tkinter.Checkbutton(
+            self.widgets["filter_window"],
+            command=self.filter_data(listened=1),
+            text="Listened",
+            variable=1,
+        )
+        chbut.grid()
+        chbut.select()
 
     def left_mouse_button(self, event):
         """Binds stuff to lmb"""
-        if (self.tree.identify("region", event.x,
-                               event.y) == "heading"):
+        if (
+                self.tree.identify(
+                    "region",
+                    event.x,
+                    event.y
+                ) == "heading"
+        ):
             if self.tree.identify("column", event.x, event.y) == "#0":
                 self.sort_entries()
 
@@ -144,7 +178,7 @@ class RootWindow:
                 ("entries_frame", 0),
                 ("buttons_frame", 1),
         ):
-            self.widgets[frame] = tkinter.ttk.Frame(
+            self.widgets[frame] = tkinter.Frame(
                 self.widgets["edit_window"]
             )
             self.widgets[frame].grid(row=row, column=0)
@@ -157,9 +191,9 @@ class RootWindow:
                 ("Theme", "theme_entry", 3),
                 ("Podcast", "podcast_entry", 4),
         ):
-            label = tkinter.ttk.Label(self.widgets["edit_window"], text=text)
+            label = tkinter.Label(self.widgets["edit_window"], text=text)
             label.grid(row=row, column=0)
-            self.widgets[widget] = tkinter.ttk.Entry(
+            self.widgets[widget] = tkinter.Entry(
                 self.widgets["edit_window"],
                 width=60
             )
@@ -173,15 +207,15 @@ class RootWindow:
             text = "Edit"
             command = self.apply_changes
         for (name, label, command, column) in (
-                (
-                    "CloseButton",
-                    "Close",
-                    self.widgets["edit_window"].destroy,
-                    0,
+                ("CloseButton",
+                 "Close",
+                 self.widgets["edit_window"].destroy,
+                 0,
                 ),
-                ("OtherButton", text, command, 1)
+                ("OtherButton", text, command, 1,
+                )
         ):
-            name = tkinter.ttk.Button(
+            name = tkinter.Button(
                 self.widgets["edit_window"],
                 text=label,
                 command=command
@@ -201,7 +235,7 @@ class RootWindow:
             for key, value in item_text.items():
                 self.widgets[key].insert(0, value)
 
-            self.widgets["edit_window"].focus_set()
+        self.widgets["edit_window"].focus_set()
 
     def save_data(self):
         """Saves the data into the file."""
@@ -228,7 +262,12 @@ class RootWindow:
             )
 
     def show_data(self):
-        """Loads the data into the window."""
+        """Clears the treeview and then loads the data into the window."""
+        
+        # This clears data
+        self.tree.delete(*self.tree.get_children())
+        
+        # This loads data into memory
         data = list(
             yaml.load_all(
                 open(
@@ -238,6 +277,16 @@ class RootWindow:
                 )
             )
         )
+        
+        # Here it should apply filters.
+        data_filter = {"Listened":"No"}
+        
+        for key in data_filter.keys():
+            for item in data:
+                if item["key"] == data_filter["key"]:
+                    data.remove(item)
+        
+        
         for item in data:
             self.tree.insert(
                 "",
@@ -250,6 +299,16 @@ class RootWindow:
                     item["Podcast"],
                 )
             )
+            if item["Listened"] == "Yes":
+                self.tree.item(self.tree.get_children()[-1], tags="Listened")
+            if item["Listened"] == "No":
+                self.tree.item(self.tree.get_children()[-1], tags="Notlistened")
+            
+        # for item in self.tree.get_children():
+            # if item["Listened"] == "Yes":
+                # self.tree.item(item, tags="Listened")
+            # if item["Listened"] == "No":
+                # self.tree.item(item, tags="Not listened")
 
     def sort_entries(self):
         """Sorts Entries"""
@@ -303,7 +362,9 @@ class RootWindow:
         self.sort_entries()
         self.save_data()
 
-
-ROOT = tkinter.Tk()
-RROOT = RootWindow(ROOT)
-ROOT.mainloop()
+    def test(self):
+        print("test")
+    
+TK = tkinter.Tk()
+ROOT = RootWindow(TK)
+TK.mainloop()
